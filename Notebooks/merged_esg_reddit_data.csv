@@ -1,0 +1,867 @@
+Company_CSR,reddit_name,avg_sentiment,post_count,e_score,s_score,g_score,total_score
+boston scientific,boston scientific,0.12659502765752767,1.0,3.16,18.0,11.83,32.98
+boston scientific,boston scientific,0.12659502765752767,1.0,2.83,12.86,10.32,26.02
+extra space storage,extra space storage,0.10884952658050481,1.0,3.81,4.28,5.86,13.94
+archer daniels midland,,,,16.38,14.2,5.9,36.36
+archer daniels midland,,,,15.89,13.51,5.38,34.78
+archer daniels midland,,,,15.91,13.49,4.85,34.25
+best buy,best buy,0.17661022368917526,17.0,2.11,5.2,4.6,11.92
+apple inc.,apple,0.10142685821562275,15.0,0.55,13.58,10.47,24.32
+apple inc.,apple,0.10142685821562275,15.0,0.18,7.69,8.86,16.72
+apple inc.,apple,0.10142685821562275,15.0,0.65,6.86,8.95,16.45
+apple inc.,apple,0.10142685821562275,15.0,0.46,7.39,9.37,17.22
+arch capital group,,,,1.9,10.12,13.95,25.98
+arch capital group,,,,2.02,10.58,13.62,26.22
+arch capital group,,,,2.01,7.78,13.17,22.96
+adobe inc.,adobe,0.09387893082632863,6.0,0.47,7.97,5.23,13.87
+adobe inc.,adobe,0.09387893082632863,6.0,0.45,8.06,5.05,13.54
+adobe inc.,adobe,0.09387893082632863,6.0,0.48,5.65,4.74,10.88
+adobe inc.,adobe,0.09387893082632863,6.0,1.42,5.84,4.64,11.9
+autodesk,autodesk,0.08661312096482551,5.0,1.27,12.97,5.63,19.73
+autodesk,autodesk,0.08661312096482551,5.0,1.28,12.77,5.46,19.52
+autodesk,autodesk,0.08661312096482551,5.0,1.37,9.22,4.78,15.36
+autodesk,autodesk,0.08661312096482551,5.0,2.73,8.53,4.6,15.86
+akamai technologies,akamai technologies,0.038507821901323694,1.0,1.91,11.8,7.34,21.05
+akamai technologies,akamai technologies,0.038507821901323694,1.0,1.98,11.51,7.62,21.11
+akamai technologies,akamai technologies,0.038507821901323694,1.0,1.93,10.35,7.45,19.73
+akamai technologies,akamai technologies,0.038507821901323694,1.0,2.96,7.0,6.82,16.78
+amgen,amgen,0.09918364740645276,2.0,0.03,16.38,7.07,23.41
+amgen,amgen,0.09918364740645276,2.0,0.03,14.73,6.76,21.51
+amgen,amgen,0.09918364740645276,2.0,0.03,13.18,6.5,19.71
+amazon,amazon,0.11906240291423192,52.0,6.66,15.55,11.0,33.69
+amazon,amazon,0.11906240291423192,52.0,5.74,13.46,10.8,30.0
+amazon,amazon,0.11906240291423192,52.0,5.44,12.93,9.73,28.09
+amazon,amazon,0.11906240291423192,52.0,5.71,14.62,9.86,30.18
+nasdaq,nasdaq,0.08205480959718249,1.0,0.75,9.96,5.22,15.93
+nasdaq,nasdaq,0.08205480959718249,1.0,0.94,9.46,4.99,15.4
+nasdaq,nasdaq,0.08205480959718249,1.0,1.13,8.96,4.88,14.98
+nasdaq,nasdaq,0.08205480959718249,1.0,0.86,7.32,4.93,13.12
+apa corporation,,,,21.98,8.88,7.96,38.81
+broadcom,broadcom,0.10562088854100073,13.0,8.99,8.39,8.71,26.09
+broadcom,broadcom,0.10562088854100073,13.0,8.96,8.66,7.9,25.52
+biogen,biogen,0.1316203405697679,10.0,0.04,14.99,8.49,23.52
+biogen,biogen,0.1316203405697679,10.0,0.03,15.3,8.03,23.36
+biogen,biogen,0.1316203405697679,10.0,0.02,14.65,7.54,22.2
+biogen,biogen,0.1316203405697679,10.0,0.02,13.07,7.82,20.91
+booking holdings,booking holdings,0.07070038009053739,4.0,4.37,9.5,6.23,20.31
+booking holdings,booking holdings,0.07070038009053739,4.0,3.88,9.4,6.15,19.43
+booking holdings,booking holdings,0.07070038009053739,4.0,3.88,9.68,6.31,19.87
+cboe global markets,,,,2.97,9.24,9.43,21.64
+cboe global markets,,,,2.57,7.19,8.98,18.69
+cboe global markets,,,,2.85,7.43,9.19,19.47
+cadence design systems,,,,1.37,10.9,5.97,18.72
+cadence design systems,,,,1.16,10.51,5.51,17.18
+cadence design systems,,,,1.14,9.85,5.27,16.26
+c.h. robinson,ch robinson,0.14130838207300978,2.0,6.51,12.91,6.55,26.0
+c.h. robinson,ch robinson,0.14130838207300978,2.0,6.44,13.0,6.45,25.89
+c.h. robinson,ch robinson,0.14130838207300978,2.0,5.83,12.36,6.28,24.48
+c.h. robinson,ch robinson,0.14130838207300978,2.0,4.89,9.42,5.63,19.94
+cincinnati financial,,,,1.71,9.14,15.89,26.7
+cincinnati financial,,,,1.71,9.42,15.3,26.42
+cincinnati financial,,,,1.78,9.11,14.53,25.41
+cincinnati financial,,,,1.83,9.42,13.47,24.72
+comcast,comcast,0.10224590828322984,16.0,1.22,9.3,8.93,19.43
+comcast,comcast,0.10224590828322984,16.0,1.22,9.3,9.09,19.61
+comcast,comcast,0.10224590828322984,16.0,1.89,9.86,8.77,20.51
+comcast,comcast,0.10224590828322984,16.0,4.56,12.11,8.07,24.74
+cme group,cme group,0.10517918517704784,7.0,2.79,7.46,6.79,17.03
+cme group,cme group,0.10517918517704784,7.0,2.68,7.32,6.47,16.46
+cme group,cme group,0.10517918517704784,7.0,1.95,6.55,6.05,14.56
+cme group,cme group,0.10517918517704784,7.0,2.13,6.21,6.24,14.59
+copart,,,,2.45,11.3,5.92,19.67
+cisco,cisco,0.14051025657861363,19.0,0.6,6.58,6.85,14.08
+cisco,cisco,0.14051025657861363,19.0,0.57,6.18,6.27,13.02
+cisco,cisco,0.14051025657861363,19.0,0.44,5.84,6.07,12.35
+costar group,,,,5.42,13.12,8.12,26.65
+costar group,,,,5.16,11.23,8.04,24.42
+csx corporation,,,,7.04,12.36,3.19,22.57
+csx corporation,,,,6.64,12.37,3.49,22.5
+csx corporation,,,,5.49,9.3,3.61,18.41
+csx corporation,,,,7.45,9.19,3.55,20.2
+cintas,cintas,0.06123776568344204,1.0,5.48,12.45,7.48,25.41
+cintas,cintas,0.06123776568344204,1.0,5.09,11.31,7.3,23.7
+cintas,cintas,0.06123776568344204,1.0,4.1,9.46,6.99,20.54
+cognizant,cognizant,0.18198069716564616,3.0,1.03,11.23,8.17,20.42
+cognizant,cognizant,0.18198069716564616,3.0,1.06,12.22,7.44,20.71
+cognizant,cognizant,0.18198069716564616,3.0,1.11,9.5,5.74,16.35
+dollar tree,dollar tree,0.044802834632878485,2.0,3.86,9.85,5.87,19.57
+dollar tree,dollar tree,0.044802834632878485,2.0,3.4,8.54,5.82,17.76
+dollar tree,dollar tree,0.044802834632878485,2.0,3.4,7.41,4.27,15.08
+dollar tree,dollar tree,0.044802834632878485,2.0,3.34,10.09,4.04,17.47
+dexcom,dexcom,0.13379476773658006,2.0,6.46,22.43,12.99,41.91
+dexcom,dexcom,0.13379476773658006,2.0,6.2,17.79,10.64,34.64
+dexcom,dexcom,0.13379476773658006,2.0,5.93,13.04,8.23,27.21
+dexcom,dexcom,0.13379476773658006,2.0,5.57,11.43,8.28,25.28
+ebay inc.,ebay,0.10313522893228202,4.0,1.69,11.13,7.32,20.17
+ebay inc.,ebay,0.10313522893228202,4.0,1.69,11.41,7.72,20.81
+ebay inc.,ebay,0.10313522893228202,4.0,1.34,10.79,7.54,19.67
+ebay inc.,ebay,0.10313522893228202,4.0,0.93,9.33,6.71,16.98
+equinix,equinix,0.13727908856673918,4.0,4.96,5.26,4.9,15.5
+equinix,equinix,0.13727908856673918,4.0,5.42,5.24,5.49,16.16
+equinix,equinix,0.13727908856673918,4.0,4.52,5.48,5.49,15.5
+expeditors international,,,,4.07,9.2,5.14,18.68
+expeditors international,,,,4.01,9.9,5.03,18.94
+expeditors international,,,,4.05,9.23,4.84,18.13
+expeditors international,,,,3.83,7.31,4.96,16.1
+fastenal,fastenal,0.1292353000285878,4.0,10.69,8.66,7.05,26.4
+"f5, inc.",,,,1.21,11.87,5.34,18.42
+"f5, inc.",,,,1.26,12.49,5.47,19.23
+fifth third bancorp,,,,2.23,13.03,11.34,26.6
+fifth third bancorp,,,,2.22,12.98,11.02,26.22
+fifth third bancorp,,,,2.02,12.22,10.22,24.46
+fifth third bancorp,,,,1.39,8.2,9.15,18.73
+fortinet,fortinet,0.08220739704686489,10.0,1.33,13.57,6.17,21.07
+fortinet,fortinet,0.08220739704686489,10.0,1.23,12.19,5.75,19.17
+garmin,garmin,0.11730075821126915,5.0,4.93,9.16,5.98,20.0
+garmin,garmin,0.11730075821126915,5.0,5.52,9.66,5.68,20.86
+garmin,garmin,0.11730075821126915,5.0,5.87,8.84,4.79,19.5
+hologic,,,,4.63,19.88,10.84,35.38
+hologic,,,,4.58,17.32,11.61,33.5
+hologic,,,,4.45,14.28,11.78,30.51
+henry schein,henry schein,0.16226365125174652,1.0,3.52,4.97,6.0,14.36
+henry schein,henry schein,0.16226365125174652,1.0,3.65,5.68,5.68,15.01
+henry schein,henry schein,0.16226365125174652,1.0,3.19,5.66,5.64,14.5
+henry schein,henry schein,0.16226365125174652,1.0,2.14,5.59,5.76,13.48
+idexx laboratories,idexx laboratories,0.11615027829313544,1.0,5.43,18.37,11.57,35.44
+idexx laboratories,idexx laboratories,0.11615027829313544,1.0,5.43,11.82,12.3,29.56
+idexx laboratories,idexx laboratories,0.11615027829313544,1.0,4.7,9.11,11.45,25.27
+idexx laboratories,idexx laboratories,0.11615027829313544,1.0,3.6,7.12,9.96,20.69
+nasdaq,nasdaq,0.08205480959718249,1.0,1.3,4.95,6.87,13.12
+nasdaq,nasdaq,0.08205480959718249,1.0,1.22,3.6,6.42,11.24
+nasdaq,nasdaq,0.08205480959718249,1.0,1.19,3.73,6.29,11.21
+incyte,,,,0.11,18.26,7.64,26.01
+incyte,,,,1.0,16.45,6.99,24.45
+intel,intel,0.14910108797868307,27.0,4.91,5.01,6.93,16.84
+intel,intel,0.14910108797868307,27.0,4.33,5.14,6.57,16.05
+intel,intel,0.14910108797868307,27.0,3.84,6.03,6.48,16.36
+intuit,intuit,0.10876405701701658,31.0,1.08,10.9,5.69,17.58
+intuit,intuit,0.10876405701701658,31.0,1.12,10.83,5.67,17.62
+intuit,intuit,0.10876405701701658,31.0,1.11,9.98,5.62,16.7
+intuitive surgical,intuitive surgical,0.12177096431899186,6.0,5.23,16.27,11.12,32.62
+intuitive surgical,intuitive surgical,0.12177096431899186,6.0,4.97,14.08,10.77,29.82
+intuitive surgical,intuitive surgical,0.12177096431899186,6.0,4.57,11.17,10.03,25.76
+intuitive surgical,intuitive surgical,0.12177096431899186,6.0,3.65,9.58,7.84,21.07
+j.b. hunt,jb hunt,0.18030303030303033,1.0,6.32,8.44,6.25,21.02
+j.b. hunt,jb hunt,0.18030303030303033,1.0,4.14,5.63,5.37,15.14
+j.b. hunt,jb hunt,0.18030303030303033,1.0,3.0,6.01,5.32,14.32
+jack henry & associates,,,,0.18,11.52,7.2,18.89
+jack henry & associates,,,,0.93,9.54,5.23,15.7
+nasdaq,nasdaq,0.08205480959718249,1.0,0.39,8.35,7.75,16.2
+nasdaq,nasdaq,0.08205480959718249,1.0,0.38,9.27,6.52,16.17
+nasdaq,nasdaq,0.08205480959718249,1.0,1.66,8.35,6.77,16.79
+kraft heinz,kraft heinz,0.09232723225356847,11.0,16.46,19.06,6.35,40.59
+kraft heinz,kraft heinz,0.09232723225356847,11.0,11.94,14.12,6.27,32.32
+kraft heinz,kraft heinz,0.09232723225356847,11.0,12.89,14.33,6.77,33.99
+kraft heinz,kraft heinz,0.09232723225356847,11.0,13.95,14.4,6.71,35.06
+kla corporation,,,,6.31,7.51,6.46,20.44
+kla corporation,,,,6.13,7.2,6.33,19.83
+kla corporation,,,,6.47,6.9,6.16,19.54
+kla corporation,,,,6.84,6.73,5.96,19.52
+lkq corporation,,,,4.57,5.4,4.0,13.98
+lkq corporation,,,,4.58,5.41,3.81,13.8
+lkq corporation,,,,4.08,4.97,3.81,12.87
+lam research,lam research,0.08332421912935326,9.0,4.18,5.65,6.49,16.31
+lam research,lam research,0.08332421912935326,9.0,4.52,5.81,6.44,16.76
+lam research,lam research,0.08332421912935326,9.0,4.94,5.05,5.56,15.56
+lam research,lam research,0.08332421912935326,9.0,4.7,4.15,5.22,14.07
+lululemon athletica,lululemon athletica,0.05228170978310076,6.0,1.12,6.41,6.07,13.6
+microchip technology,micron technology,0.1040785672004355,13.0,17.12,9.74,8.52,35.3
+microchip technology,micron technology,0.1040785672004355,13.0,16.04,9.44,8.64,34.12
+microchip technology,micron technology,0.1040785672004355,13.0,15.07,9.32,8.64,33.03
+mondelez international,mondelez international,0.08208667587405336,2.0,8.99,10.2,5.8,25.07
+mondelez international,mondelez international,0.08208667587405336,2.0,9.67,10.8,5.72,26.18
+mondelez international,mondelez international,0.08208667587405336,2.0,7.52,10.62,5.16,23.29
+microsoft,microsoft,0.12389998654914232,43.0,0.45,9.71,5.23,15.45
+microsoft,microsoft,0.12389998654914232,43.0,0.46,9.57,5.14,15.17
+microsoft,microsoft,0.12389998654914232,43.0,0.46,9.11,4.85,14.42
+microsoft,microsoft,0.12389998654914232,43.0,0.82,8.17,5.1,14.08
+norwegian cruise line holdings,norwegian cruise line holdings,0.10929707228535356,1.0,12.47,11.12,3.9,27.67
+norwegian cruise line holdings,norwegian cruise line holdings,0.10929707228535356,1.0,12.63,10.98,3.93,27.54
+norwegian cruise line holdings,norwegian cruise line holdings,0.10929707228535356,1.0,12.54,10.97,4.47,27.99
+norwegian cruise line holdings,norwegian cruise line holdings,0.10929707228535356,1.0,11.98,10.12,4.51,26.61
+"nasdaq, inc.",nasdaq,0.08205480959718249,1.0,2.38,7.95,7.84,18.15
+"nasdaq, inc.",nasdaq,0.08205480959718249,1.0,2.16,7.4,7.3,16.87
+"nasdaq, inc.",nasdaq,0.08205480959718249,1.0,1.59,6.3,6.41,14.3
+"nasdaq, inc.",nasdaq,0.08205480959718249,1.0,1.81,4.56,5.56,11.93
+nordson corporation,,,,9.55,13.34,5.65,28.53
+nordson corporation,,,,9.45,12.51,5.6,27.56
+netapp,netapp,0.11495234928777251,2.0,2.77,9.51,6.76,18.63
+netapp,netapp,0.11495234928777251,2.0,2.77,8.15,6.19,17.11
+netapp,netapp,0.11495234928777251,2.0,2.61,7.2,6.05,15.87
+northern trust,northern trust,0.11550247715247712,1.0,2.54,13.74,11.39,27.78
+northern trust,northern trust,0.11550247715247712,1.0,2.54,13.0,11.11,27.05
+northern trust,northern trust,0.11550247715247712,1.0,2.24,12.34,10.83,25.41
+nvidia,nvidia,0.08093578982143139,28.0,1.91,4.66,6.85,13.49
+nvidia,nvidia,0.08093578982143139,28.0,2.12,4.26,6.64,13.02
+nvidia,nvidia,0.08093578982143139,28.0,2.37,4.14,6.63,13.15
+nvidia,nvidia,0.08093578982143139,28.0,2.44,4.46,6.1,13.0
+nxp semiconductors,nxp semiconductors,0.09621604603949829,8.0,9.26,7.02,7.84,24.15
+nxp semiconductors,nxp semiconductors,0.09621604603949829,8.0,9.02,6.97,7.37,23.36
+nxp semiconductors,nxp semiconductors,0.09621604603949829,8.0,7.86,6.61,5.07,19.54
+nxp semiconductors,nxp semiconductors,0.09621604603949829,8.0,8.51,7.13,5.39,21.02
+paychex,paychex,0.06611002493491168,3.0,0.15,10.92,6.91,18.78
+paychex,paychex,0.06611002493491168,3.0,0.11,9.2,6.84,16.16
+paychex,paychex,0.06611002493491168,3.0,0.32,9.32,6.6,16.25
+paccar,,,,8.31,14.87,9.1,32.28
+principal financial group,,,,1.81,9.21,10.99,21.86
+principal financial group,,,,1.94,8.55,11.9,22.39
+principal financial group,,,,2.11,7.55,10.84,20.5
+ptc inc.,,,,1.81,15.51,6.7,24.04
+ptc inc.,,,,1.64,13.55,6.72,22.21
+ptc inc.,,,,1.26,12.1,5.91,19.26
+paypal,paypal,0.11060870623507828,20.0,0.09,11.64,7.87,19.52
+paypal,paypal,0.11060870623507828,20.0,0.09,11.4,7.21,18.69
+paypal,paypal,0.11060870623507828,20.0,0.22,10.8,6.44,17.45
+qualcomm,qualcomm,0.11827829985048548,20.0,1.93,6.44,10.73,18.91
+qualcomm,qualcomm,0.11827829985048548,20.0,3.51,6.16,10.31,19.97
+qualcomm,qualcomm,0.11827829985048548,20.0,6.37,3.49,9.18,19.04
+qualcomm,qualcomm,0.11827829985048548,20.0,5.45,4.29,7.81,17.55
+nasdaq,nasdaq,0.08205480959718249,1.0,19.64,9.0,7.69,36.33
+nasdaq,nasdaq,0.08205480959718249,1.0,15.96,8.91,7.23,32.1
+nasdaq,nasdaq,0.08205480959718249,1.0,14.11,8.64,7.41,30.15
+nasdaq,nasdaq,0.08205480959718249,1.0,12.72,8.5,7.58,28.8
+regeneron pharmaceuticals,regeneron pharmaceuticals,0.11950711193071986,4.0,0.06,16.69,8.1,24.85
+regeneron pharmaceuticals,regeneron pharmaceuticals,0.11950711193071986,4.0,0.03,15.28,7.98,23.3
+regeneron pharmaceuticals,regeneron pharmaceuticals,0.11950711193071986,4.0,0.01,13.76,7.54,21.32
+sba communications,,,,2.46,8.39,7.36,18.11
+sba communications,,,,2.36,7.76,7.2,17.32
+sba communications,,,,2.78,7.05,6.44,16.27
+starbucks,starbucks,0.10604428896073978,30.0,3.15,12.99,5.11,21.23
+starbucks,starbucks,0.10604428896073978,30.0,3.18,13.03,4.95,21.15
+starbucks,starbucks,0.10604428896073978,30.0,2.87,13.53,4.57,20.98
+starbucks,starbucks,0.10604428896073978,30.0,6.11,14.41,4.24,24.78
+synopsys,synopsys,0.10720265834985428,8.0,1.18,13.05,5.81,19.85
+synopsys,synopsys,0.10720265834985428,8.0,1.18,12.11,5.45,18.74
+synopsys,synopsys,0.10720265834985428,8.0,1.1,9.07,4.3,14.46
+synopsys,synopsys,0.10720265834985428,8.0,2.49,7.16,4.12,13.76
+steel dynamics,steel dynamics,0.13029006374262161,3.0,15.5,13.09,7.33,35.96
+steel dynamics,steel dynamics,0.13029006374262161,3.0,14.24,13.62,7.24,35.3
+steel dynamics,steel dynamics,0.13029006374262161,3.0,13.41,14.22,6.74,34.37
+seagate technology,seagate technology,0.14080752477226935,3.0,1.61,8.11,5.84,15.55
+seagate technology,seagate technology,0.14080752477226935,3.0,1.59,7.88,5.81,15.27
+seagate technology,seagate technology,0.14080752477226935,3.0,1.59,3.8,5.21,10.6
+skyworks solutions,skyworks solutions,0.11392386496172863,2.0,15.39,8.99,8.81,33.01
+skyworks solutions,skyworks solutions,0.11392386496172863,2.0,14.59,9.09,8.46,32.14
+skyworks solutions,skyworks solutions,0.11392386496172863,2.0,15.26,9.51,8.36,33.12
+skyworks solutions,skyworks solutions,0.11392386496172863,2.0,13.82,9.32,8.2,31.34
+t-mobile us,t-mobile us,0.13315286703028417,3.0,4.8,13.6,7.59,25.99
+t-mobile us,t-mobile us,0.13315286703028417,3.0,4.27,14.36,7.72,26.35
+t-mobile us,t-mobile us,0.13315286703028417,3.0,3.49,13.38,7.47,24.33
+trimble inc.,trimble,0.2596119929453263,1.0,2.34,5.42,4.65,12.91
+trimble inc.,trimble,0.2596119929453263,1.0,1.99,4.68,5.27,11.93
+trimble inc.,trimble,0.2596119929453263,1.0,2.79,4.25,5.26,12.3
+t. rowe price,t rowe price,0.05904997073201954,5.0,2.84,12.56,9.01,24.03
+t. rowe price,t rowe price,0.05904997073201954,5.0,2.85,12.34,8.84,23.72
+t. rowe price,t rowe price,0.05904997073201954,5.0,2.96,11.72,8.64,23.32
+t. rowe price,t rowe price,0.05904997073201954,5.0,2.14,11.76,6.36,20.25
+"tesla, inc.",tesla,0.08350976519267088,15.0,2.8,17.62,10.38,31.03
+"tesla, inc.",tesla,0.08350976519267088,15.0,2.77,17.34,11.12,31.22
+"tesla, inc.",tesla,0.08350976519267088,15.0,2.87,17.31,10.86,31.04
+texas instruments,texas instruments,0.16738190721223503,10.0,6.77,5.0,7.25,18.97
+texas instruments,texas instruments,0.16738190721223503,10.0,6.59,5.22,6.33,18.14
+texas instruments,texas instruments,0.16738190721223503,10.0,6.97,5.38,5.8,18.14
+texas instruments,texas instruments,0.16738190721223503,10.0,8.81,5.03,6.32,20.16
+verisk analytics,,,,0.11,15.0,6.73,22.01
+verisk analytics,,,,0.11,14.58,6.74,21.43
+verisk analytics,,,,0.11,14.69,6.46,21.25
+vertex pharmaceuticals,vertex pharmaceuticals,0.08650825587044797,2.0,0.16,18.09,7.9,26.16
+vertex pharmaceuticals,vertex pharmaceuticals,0.08650825587044797,2.0,0.16,18.04,7.85,26.08
+vertex pharmaceuticals,vertex pharmaceuticals,0.08650825587044797,2.0,0.15,17.22,7.5,24.88
+vertex pharmaceuticals,vertex pharmaceuticals,0.08650825587044797,2.0,0.52,15.88,7.41,23.82
+nasdaq,nasdaq,0.08205480959718249,1.0,2.63,10.04,4.5,17.49
+nasdaq,nasdaq,0.08205480959718249,1.0,2.38,10.59,4.51,17.48
+nasdaq,nasdaq,0.08205480959718249,1.0,1.89,11.04,4.67,17.6
+nasdaq,nasdaq,0.08205480959718249,1.0,2.1,11.52,4.73,18.35
+western digital,western digital,0.0953770459017539,7.0,3.16,9.26,7.09,19.65
+western digital,western digital,0.0953770459017539,7.0,3.01,7.75,7.39,18.25
+western digital,western digital,0.0953770459017539,7.0,2.53,4.39,5.69,12.61
+western digital,western digital,0.0953770459017539,7.0,2.01,4.07,5.62,11.7
+wynn resorts,wynn resorts,0.12470432588306728,8.0,3.6,13.9,10.58,28.07
+wynn resorts,wynn resorts,0.12470432588306728,8.0,3.61,11.88,11.4,26.89
+wynn resorts,wynn resorts,0.12470432588306728,8.0,3.78,11.69,11.54,27.0
+wynn resorts,wynn resorts,0.12470432588306728,8.0,3.55,11.98,10.94,26.47
+abbvie,abbvie,0.11063416907942182,11.0,1.03,17.06,11.66,30.63
+abbvie,abbvie,0.11063416907942182,11.0,0.96,17.05,12.54,30.56
+abbvie,abbvie,0.11063416907942182,11.0,0.65,17.0,11.08,28.73
+abbott laboratories,,,,3.71,15.31,11.96,30.84
+abbott laboratories,,,,3.36,15.86,11.11,30.34
+abbott laboratories,,,,3.02,15.68,10.4,29.1
+accenture,accenture,0.06523152884236447,8.0,0.92,8.62,5.8,15.16
+accenture,accenture,0.06523152884236447,8.0,0.97,8.13,5.86,15.1
+accenture,accenture,0.06523152884236447,8.0,0.96,8.1,6.19,15.26
+accenture,accenture,0.06523152884236447,8.0,0.76,6.58,5.98,13.32
+automatic data processing,automatic data processing,0.163407365060189,2.0,0.08,9.82,6.32,16.34
+automatic data processing,automatic data processing,0.163407365060189,2.0,0.07,8.36,6.52,14.63
+automatic data processing,automatic data processing,0.163407365060189,2.0,0.07,7.55,6.0,13.63
+automatic data processing,automatic data processing,0.163407365060189,2.0,0.27,7.09,5.54,12.9
+ameren,,,,18.26,12.17,6.6,37.02
+ameren,,,,15.2,8.37,5.62,29.18
+american electric power,american electric power,0.08683977455716585,1.0,17.84,9.38,5.56,32.76
+american electric power,american electric power,0.08683977455716585,1.0,19.5,9.83,5.28,34.61
+american electric power,american electric power,0.08683977455716585,1.0,16.17,7.29,5.52,28.97
+american electric power,american electric power,0.08683977455716585,1.0,12.66,8.1,5.38,26.14
+aflac,,,,2.05,8.23,13.59,23.87
+aflac,,,,2.38,7.88,13.01,23.27
+aflac,,,,0.47,7.26,9.57,17.3
+american international group,american international group,0.0451275861900862,2.0,1.86,11.58,16.31,29.62
+american international group,american international group,0.0451275861900862,2.0,1.9,12.79,15.84,30.54
+american international group,american international group,0.0451275861900862,2.0,1.94,12.46,14.88,29.29
+assurant,assurant,0.1317879540620151,36.0,1.36,11.17,13.48,26.01
+assurant,assurant,0.1317879540620151,36.0,1.34,10.54,13.14,25.01
+arthur j. gallagher & co.,,,,0.12,11.03,13.26,23.46
+arthur j. gallagher & co.,,,,0.12,11.04,13.46,23.99
+arthur j. gallagher & co.,,,,0.14,11.14,13.56,24.86
+albemarle corporation,,,,17.64,8.71,8.43,35.3
+albemarle corporation,,,,19.39,8.91,8.7,36.99
+albemarle corporation,,,,19.09,8.97,8.77,36.83
+ameriprise financial,ameriprise financial,0.08383188487452961,2.0,2.3,12.19,13.25,27.75
+ameriprise financial,ameriprise financial,0.08383188487452961,2.0,2.4,10.04,12.73,25.17
+ameriprise financial,ameriprise financial,0.08383188487452961,2.0,2.72,7.43,12.47,22.62
+ameriprise financial,ameriprise financial,0.08383188487452961,2.0,2.33,7.52,11.58,21.44
+american tower,american tower,0.08065673590133471,6.0,5.81,6.68,5.63,18.12
+american tower,american tower,0.08065673590133471,6.0,5.81,6.68,5.6,18.09
+american tower,american tower,0.08065673590133471,6.0,3.73,3.78,4.9,12.42
+american tower,american tower,0.08065673590133471,6.0,2.41,3.48,5.01,10.89
+a. o. smith,,,,13.6,4.11,7.25,24.83
+a. o. smith,,,,10.21,13.15,7.72,31.07
+a. o. smith,,,,7.12,11.35,6.39,24.87
+air products,air products,0.3124470899470899,2.0,6.28,1.68,3.67,11.64
+air products,air products,0.3124470899470899,2.0,6.05,1.46,3.65,11.17
+air products,air products,0.3124470899470899,2.0,5.94,1.28,3.59,10.81
+air products,air products,0.3124470899470899,2.0,7.42,1.5,3.35,12.26
+aptiv,aptiv,0.1289580918353909,5.0,4.12,7.54,7.65,19.3
+aptiv,aptiv,0.1289580918353909,5.0,3.97,6.38,6.82,17.17
+aptiv,aptiv,0.1289580918353909,5.0,3.77,4.71,5.33,13.81
+atmos energy,atmos energy,0.058160559678416816,1.0,15.9,15.4,7.04,38.35
+atmos energy,atmos energy,0.058160559678416816,1.0,14.34,14.54,6.65,35.54
+atmos energy,atmos energy,0.058160559678416816,1.0,13.42,13.09,6.75,33.26
+atmos energy,atmos energy,0.058160559678416816,1.0,14.15,13.05,6.58,33.79
+avalonbay communities,,,,3.57,3.6,5.96,13.0
+avalonbay communities,,,,3.54,3.69,5.62,12.81
+avalonbay communities,,,,3.51,3.55,5.35,12.42
+avery dennison,,,,13.3,1.58,4.38,19.25
+avery dennison,,,,12.78,1.76,4.22,18.74
+avery dennison,,,,12.19,1.93,4.0,18.12
+american water works,american water works,0.11615027829313544,1.0,11.17,9.76,5.66,26.6
+american water works,american water works,0.11615027829313544,1.0,11.97,9.92,5.98,27.93
+american water works,american water works,0.11615027829313544,1.0,12.78,10.06,6.24,29.14
+american water works,american water works,0.11615027829313544,1.0,13.23,9.74,5.5,28.48
+american express,american express,0.1004068567423143,12.0,0.07,13.13,10.19,23.25
+american express,american express,0.1004068567423143,12.0,0.06,11.74,9.87,21.68
+american express,american express,0.1004068567423143,12.0,0.05,10.17,9.41,19.62
+agilent technologies,agilent technologies,0.18782357718127565,8.0,0.88,9.48,7.19,17.6
+agilent technologies,agilent technologies,0.18782357718127565,8.0,0.87,9.42,6.86,17.14
+agilent technologies,agilent technologies,0.18782357718127565,8.0,0.87,9.44,6.29,16.6
+baxter international,,,,2.5,17.47,8.88,28.56
+baxter international,,,,2.56,16.84,9.05,28.45
+baxter international,,,,2.51,15.96,9.22,27.7
+nyse,,,,2.55,8.35,5.18,16.08
+becton dickinson,,,,3.45,16.51,11.25,31.84
+becton dickinson,,,,3.4,18.48,11.17,33.05
+becton dickinson,,,,3.41,18.26,10.64,32.31
+becton dickinson,,,,3.55,16.17,9.57,29.3
+bny mellon,bny mellon,0.06841373250077441,2.0,2.38,12.18,10.22,24.81
+bny mellon,bny mellon,0.06841373250077441,2.0,2.21,10.69,10.32,23.22
+bny mellon,bny mellon,0.06841373250077441,2.0,1.99,9.46,10.7,22.15
+bristol myers squibb,bristol myers squibb,0.12206264710143319,9.0,1.52,14.37,9.69,26.01
+bristol myers squibb,bristol myers squibb,0.12206264710143319,9.0,1.53,17.05,10.24,28.38
+bristol myers squibb,bristol myers squibb,0.12206264710143319,9.0,1.37,15.77,10.98,28.1
+bristol myers squibb,bristol myers squibb,0.12206264710143319,9.0,0.03,15.2,7.5,22.73
+nyse,,,,5.57,10.83,7.98,24.62
+nyse,,,,5.4,10.84,7.54,23.78
+nyse,,,,4.94,9.54,7.21,21.69
+"bxp, inc.",,,,3.87,5.15,5.62,14.63
+"bxp, inc.",,,,3.82,5.09,5.37,14.28
+"bxp, inc.",,,,3.7,5.03,5.08,13.81
+conagra brands,conagra brands,0.10916283216028116,2.0,9.76,14.03,5.85,29.63
+conagra brands,conagra brands,0.10916283216028116,2.0,9.87,15.3,5.66,30.83
+conagra brands,conagra brands,0.10916283216028116,2.0,10.97,16.37,4.95,32.29
+conagra brands,conagra brands,0.10916283216028116,2.0,11.7,16.4,4.77,32.87
+cardinal health,cardinal health,0.15184251020934433,3.0,1.91,8.93,5.53,16.37
+cardinal health,cardinal health,0.15184251020934433,3.0,2.29,8.2,5.13,15.62
+cardinal health,cardinal health,0.15184251020934433,3.0,2.45,5.37,4.51,12.33
+cbre group,,,,0.98,2.77,3.62,7.39
+cbre group,,,,1.66,2.74,3.58,7.98
+cbre group,,,,2.13,2.7,3.51,8.33
+cbre group,,,,1.27,2.48,3.24,6.99
+chubb limited,,,,1.53,10.32,11.48,23.37
+chubb limited,,,,1.57,10.72,11.43,23.73
+chubb limited,,,,1.62,11.28,10.88,23.78
+chubb limited,,,,1.65,11.68,10.67,24.01
+carnival,carnival,0.08843436666263162,13.0,8.3,8.16,3.64,20.08
+carnival,carnival,0.08843436666263162,13.0,8.49,9.0,3.72,21.2
+carnival,carnival,0.08843436666263162,13.0,9.18,9.46,3.85,22.48
+carnival,carnival,0.08843436666263162,13.0,10.21,9.77,3.82,23.8
+citizens financial group,citizens financial group,0.06199307893752338,1.0,2.02,14.57,11.93,29.1
+citizens financial group,citizens financial group,0.06199307893752338,1.0,1.79,14.04,11.75,27.57
+citizens financial group,citizens financial group,0.06199307893752338,1.0,1.87,12.49,11.16,25.51
+church & dwight,church & dwight,0.042783905562565554,2.0,8.57,8.62,8.51,25.57
+church & dwight,church & dwight,0.042783905562565554,2.0,8.76,8.62,7.96,25.34
+church & dwight,church & dwight,0.042783905562565554,2.0,7.37,8.22,7.14,22.74
+church & dwight,church & dwight,0.042783905562565554,2.0,6.53,6.53,6.59,19.66
+nyse,,,,2.1,11.32,12.22,25.91
+nyse,,,,2.05,11.94,12.66,26.65
+nyse,,,,1.69,13.13,12.11,26.93
+chipotle mexican grill,chipotle mexican grill,0.11301374857461463,7.0,5.37,14.5,5.51,26.54
+chipotle mexican grill,chipotle mexican grill,0.11301374857461463,7.0,4.02,14.73,6.04,24.79
+chipotle mexican grill,chipotle mexican grill,0.11301374857461463,7.0,3.97,14.63,5.68,24.28
+cummins,cummins,0.10802081423827063,7.0,3.32,9.11,6.37,18.76
+cummins,cummins,0.10802081423827063,7.0,3.45,9.01,6.29,18.75
+cummins,cummins,0.10802081423827063,7.0,4.14,8.04,5.97,18.14
+cms energy,,,,14.98,8.88,5.05,28.77
+cms energy,,,,13.52,9.07,5.35,27.94
+cms energy,,,,12.78,8.22,5.33,26.33
+cms energy,,,,9.8,5.78,5.52,21.1
+centene corporation,,,,0.14,15.86,6.68,22.68
+centene corporation,,,,0.11,14.13,7.27,21.52
+centene corporation,,,,0.09,13.28,6.86,20.25
+centerpoint energy,,,,14.48,12.9,7.56,35.24
+centerpoint energy,,,,13.81,11.66,6.1,31.57
+centerpoint energy,,,,17.79,11.9,5.85,35.53
+capital one,capital one,0.11478497800867316,3.0,0.06,12.15,9.6,23.7
+capital one,capital one,0.11478497800867316,3.0,0.06,13.33,10.25,24.61
+capital one,capital one,0.11478497800867316,3.0,0.06,13.46,9.66,23.18
+cooper companies (the),,,,3.1,11.59,7.32,22.01
+cooper companies (the),,,,3.1,10.71,7.0,20.82
+cooper companies (the),,,,2.83,10.75,6.44,20.03
+conocophillips,conocophillips,0.08643237348930992,6.0,17.2,8.5,8.41,34.35
+conocophillips,conocophillips,0.08643237348930992,6.0,15.53,7.84,6.63,30.0
+conocophillips,conocophillips,0.08643237348930992,6.0,18.68,9.83,7.03,35.53
+conocophillips,conocophillips,0.08643237348930992,6.0,17.45,9.71,7.73,34.88
+campbell's company (the),,,,8.97,9.71,5.43,24.12
+campbell's company (the),,,,9.15,8.86,5.17,23.18
+campbell's company (the),,,,9.4,7.82,4.78,22.0
+camden property trust,,,,5.93,6.62,7.12,19.82
+camden property trust,,,,5.79,6.56,7.48,19.9
+camden property trust,,,,5.25,5.62,7.36,18.24
+camden property trust,,,,5.14,4.82,6.44,16.4
+coterra,coterra,0.010717592592592603,1.0,23.42,14.01,9.07,46.51
+chevron corporation,chevron,0.05293281101614437,2.0,20.27,11.7,10.64,42.56
+chevron corporation,chevron,0.05293281101614437,2.0,18.87,11.81,10.1,40.78
+chevron corporation,chevron,0.05293281101614437,2.0,19.06,11.46,10.0,40.51
+chevron corporation,chevron,0.05293281101614437,2.0,21.15,10.07,10.06,41.28
+quest diagnostics,,,,0.14,10.7,8.46,19.16
+quest diagnostics,,,,0.14,10.34,8.44,18.92
+quest diagnostics,,,,0.12,10.08,8.6,18.8
+quest diagnostics,,,,0.13,12.67,8.1,20.9
+d. r. horton,d r horton,0.0686556664948537,3.0,9.34,7.01,6.03,22.39
+danaher corporation,,,,4.63,18.23,9.86,32.72
+danaher corporation,,,,3.35,14.81,8.57,26.74
+danaher corporation,,,,1.37,8.23,6.13,15.73
+digital realty,digital realty,0.12720042840036347,5.0,4.17,5.92,7.88,17.91
+digital realty,digital realty,0.12720042840036347,5.0,3.41,5.38,5.54,14.33
+digital realty,digital realty,0.12720042840036347,5.0,3.37,5.07,5.52,13.95
+digital realty,digital realty,0.12720042840036347,5.0,3.23,3.7,6.1,13.02
+domino's,dominos,0.0779238751485042,17.0,6.08,14.48,6.98,27.52
+domino's,dominos,0.0779238751485042,17.0,5.22,14.79,6.66,26.67
+domino's,dominos,0.0779238751485042,17.0,7.72,16.68,6.81,31.21
+duke energy,duke energy,0.10433126881077419,4.0,16.23,10.56,7.19,33.99
+duke energy,duke energy,0.10433126881077419,4.0,15.8,11.37,6.36,33.54
+duke energy,duke energy,0.10433126881077419,4.0,15.39,10.4,5.44,31.24
+duke energy,duke energy,0.10433126881077419,4.0,14.49,8.57,4.59,27.66
+devon energy,devon energy,0.14401340996168582,1.0,17.33,11.07,6.25,34.52
+devon energy,devon energy,0.14401340996168582,1.0,17.26,9.92,6.62,33.79
+devon energy,devon energy,0.14401340996168582,1.0,16.85,8.61,7.56,33.01
+ecolab,ecolab,0.03487878787878787,2.0,14.41,10.3,7.48,32.17
+ecolab,ecolab,0.03487878787878787,2.0,13.32,9.8,7.06,30.19
+ecolab,ecolab,0.03487878787878787,2.0,10.33,8.6,6.54,25.47
+ecolab,ecolab,0.03487878787878787,2.0,9.48,8.44,6.17,24.09
+edison international,edison international,0.1237965116696461,1.0,19.08,12.0,7.86,38.87
+edison international,edison international,0.1237965116696461,1.0,13.66,12.21,6.8,32.67
+edison international,edison international,0.1237965116696461,1.0,11.07,11.59,5.97,28.65
+edison international,edison international,0.1237965116696461,1.0,10.64,10.99,5.86,27.49
+nyse,,,,13.15,6.61,7.94,27.65
+nyse,,,,12.4,6.24,7.56,26.19
+nyse,,,,11.82,5.45,7.24,24.51
+nyse,,,,12.41,5.64,6.9,24.94
+eog resources,eog resources,0.0662802303911754,3.0,23.89,12.77,8.05,44.78
+eog resources,eog resources,0.0662802303911754,3.0,24.84,12.6,8.26,45.71
+eog resources,eog resources,0.0662802303911754,3.0,19.63,11.04,8.24,38.91
+equity residential,equity residential,0.15842222222222224,1.0,4.47,5.43,6.16,16.0
+equity residential,equity residential,0.15842222222222224,1.0,4.56,5.21,5.76,15.52
+equity residential,equity residential,0.15842222222222224,1.0,4.41,4.02,4.91,13.34
+equity residential,equity residential,0.15842222222222224,1.0,2.91,3.0,5.14,11.05
+eqt corporation,,,,19.95,9.03,9.42,40.3
+eqt corporation,,,,21.64,8.35,7.53,37.52
+eqt corporation,,,,21.03,10.0,8.21,39.24
+eaton corporation,eaton,0.11988225888225888,1.0,4.66,7.04,6.03,17.84
+eaton corporation,eaton,0.11988225888225888,1.0,5.02,6.59,5.63,17.24
+eaton corporation,eaton,0.11988225888225888,1.0,5.0,6.45,5.68,17.12
+eaton corporation,eaton,0.11988225888225888,1.0,5.2,6.72,5.69,17.6
+freeport-mcmoran,freeport-mcmoran,0.08548381770294339,3.0,20.58,11.87,6.85,39.97
+freeport-mcmoran,freeport-mcmoran,0.08548381770294339,3.0,20.69,12.42,6.75,39.87
+freeport-mcmoran,freeport-mcmoran,0.08548381770294339,3.0,18.17,11.86,5.53,35.56
+freeport-mcmoran,freeport-mcmoran,0.08548381770294339,3.0,17.21,10.28,5.37,32.87
+fedex,fedex,0.09310296751640029,22.0,5.87,9.29,6.11,21.26
+fedex,fedex,0.09310296751640029,22.0,5.18,10.01,6.0,21.19
+fedex,fedex,0.09310296751640029,22.0,5.29,9.32,5.84,20.45
+fedex,fedex,0.09310296751640029,22.0,5.66,8.42,5.61,19.68
+fidelity national information services,fidelity national information services,0.12019875397919648,6.0,0.34,11.57,6.61,18.51
+fidelity national information services,fidelity national information services,0.12019875397919648,6.0,1.27,11.14,5.73,18.13
+nyse,,,,16.53,12.54,6.91,36.22
+nyse,,,,18.34,12.95,6.97,38.26
+nyse,,,,17.86,13.54,7.31,38.71
+nyse,,,,17.03,10.57,7.39,34.99
+federal realty investment trust,,,,4.1,5.8,7.12,16.98
+federal realty investment trust,,,,3.72,4.9,6.94,15.56
+federal realty investment trust,,,,2.24,4.44,6.08,12.75
+fortive,fortive,0.09958216386787816,1.0,10.5,14.79,7.15,32.39
+fortive,fortive,0.09958216386787816,1.0,10.01,14.6,6.96,31.56
+fortive,fortive,0.09958216386787816,1.0,15.52,14.16,5.63,35.32
+corning inc.,,,,7.91,5.2,6.89,20.0
+corning inc.,,,,7.3,5.24,6.87,19.42
+genuine parts company,,,,4.25,5.85,3.41,13.37
+genuine parts company,,,,3.71,5.14,3.9,12.75
+genuine parts company,,,,3.61,5.22,3.78,12.6
+genuine parts company,,,,4.14,5.2,3.79,13.14
+global payments,global payments,0.11342793890776291,7.0,0.18,14.04,7.57,21.85
+global payments,global payments,0.11342793890776291,7.0,0.18,13.52,7.87,21.58
+global payments,global payments,0.11342793890776291,7.0,0.38,10.96,7.31,18.64
+global payments,global payments,0.11342793890776291,7.0,1.31,10.92,6.95,19.18
+w. w. grainger,w w grainger,0.39,2.0,1.41,5.85,6.75,13.88
+w. w. grainger,w w grainger,0.39,2.0,1.39,5.25,6.38,13.02
+w. w. grainger,w w grainger,0.39,2.0,3.21,5.57,6.05,14.83
+w. w. grainger,w w grainger,0.39,2.0,3.41,5.48,5.72,14.6
+huntington bancshares,,,,2.53,12.71,9.53,24.55
+huntington bancshares,,,,2.48,11.43,8.8,22.72
+huntington bancshares,,,,2.05,11.31,7.85,21.22
+huntington bancshares,,,,1.96,10.54,7.79,20.28
+hartford (the),,,,1.45,8.58,10.93,20.73
+hartford (the),,,,1.48,8.58,10.51,20.56
+hartford (the),,,,1.65,7.42,9.6,18.67
+hartford (the),,,,1.5,6.22,8.58,16.31
+hilton worldwide,hilton worldwide,0.10834802457782797,4.0,8.63,8.48,4.05,21.16
+hilton worldwide,hilton worldwide,0.10834802457782797,4.0,8.22,8.24,3.87,20.33
+hilton worldwide,hilton worldwide,0.10834802457782797,4.0,8.04,8.13,3.61,19.78
+hormel foods,hormel foods,0.11193380230880234,1.0,10.56,12.32,5.12,27.96
+hormel foods,hormel foods,0.11193380230880234,1.0,10.02,11.23,4.98,26.24
+hormel foods,hormel foods,0.11193380230880234,1.0,10.73,10.32,5.04,26.1
+host hotels & resorts,,,,4.02,4.74,5.52,14.28
+host hotels & resorts,,,,3.97,5.15,5.42,14.55
+host hotels & resorts,,,,3.74,5.73,4.91,14.37
+hershey company (the),,,,9.14,10.87,5.92,25.95
+hershey company (the),,,,8.67,11.18,5.95,25.8
+hershey company (the),,,,9.72,10.32,5.29,25.34
+ibm,ibm,0.11278691265783829,32.0,0.42,9.77,7.35,17.62
+ibm,ibm,0.11278691265783829,32.0,0.41,9.96,7.25,17.6
+ibm,ibm,0.11278691265783829,32.0,0.42,9.4,7.43,17.24
+ibm,ibm,0.11278691265783829,32.0,0.47,6.67,7.64,14.77
+idex corporation,,,,10.08,15.9,8.04,33.97
+idex corporation,,,,10.67,15.4,7.66,33.74
+idex corporation,,,,8.1,13.0,5.95,27.05
+interpublic group of companies (the),,,,0.05,9.99,6.06,16.15
+interpublic group of companies (the),,,,0.05,10.0,5.96,16.02
+interpublic group of companies (the),,,,0.05,9.69,5.98,15.73
+iqvia,iqvia,0.060041823697196704,5.0,1.77,15.29,8.33,25.48
+iqvia,iqvia,0.060041823697196704,5.0,1.67,14.74,7.86,24.26
+iqvia,iqvia,0.060041823697196704,5.0,1.47,12.23,7.09,20.79
+illinois tool works,,,,4.64,9.31,6.29,20.23
+illinois tool works,,,,4.27,8.87,6.44,19.56
+illinois tool works,,,,4.36,9.14,6.43,19.93
+illinois tool works,,,,7.0,11.78,6.52,25.29
+invesco,invesco,0.10521843082767132,16.0,1.47,14.46,10.93,26.29
+invesco,invesco,0.10521843082767132,16.0,1.49,14.47,10.68,26.13
+invesco,invesco,0.10521843082767132,16.0,1.8,12.93,10.41,25.14
+johnson controls,,,,6.0,5.12,7.37,18.3
+johnson controls,,,,6.25,4.73,6.76,17.74
+johnson controls,,,,8.03,2.53,6.02,16.57
+johnson controls,,,,5.13,3.43,5.31,13.87
+johnson & johnson,johnson & johnson,0.11279351297121983,17.0,1.3,22.35,11.73,35.54
+johnson & johnson,johnson & johnson,0.11279351297121983,17.0,1.29,21.19,11.44,33.92
+johnson & johnson,johnson & johnson,0.11279351297121983,17.0,0.74,19.89,9.29,29.92
+johnson & johnson,johnson & johnson,0.11279351297121983,17.0,0.74,16.53,8.54,25.82
+jpmorgan chase,jpmorgan chase,0.09392462227663688,22.0,1.16,12.27,9.65,22.95
+jpmorgan chase,jpmorgan chase,0.09392462227663688,22.0,1.16,11.98,9.05,22.18
+jpmorgan chase,jpmorgan chase,0.09392462227663688,22.0,1.07,16.13,10.74,27.94
+jpmorgan chase,jpmorgan chase,0.09392462227663688,22.0,1.11,16.32,11.65,29.08
+kimberly-clark,kimberly-clark,0.09160805098997878,5.0,7.59,7.46,6.79,21.85
+kimberly-clark,kimberly-clark,0.09160805098997878,5.0,7.87,7.28,6.92,22.06
+kimberly-clark,kimberly-clark,0.09160805098997878,5.0,8.11,7.22,6.83,22.16
+kinder morgan,kinder morgan,0.1285022651035723,3.0,10.83,10.18,4.44,25.31
+kinder morgan,kinder morgan,0.1285022651035723,3.0,9.23,9.5,4.24,22.97
+kinder morgan,kinder morgan,0.1285022651035723,3.0,8.55,6.06,3.82,18.43
+nyse,,,,0.14,9.09,4.2,13.45
+nyse,,,,0.11,8.7,4.17,12.98
+nyse,,,,0.08,7.92,3.98,11.97
+nyse,,,,0.09,8.02,3.99,12.1
+leidos,leidos,0.10999017649017649,1.0,1.22,12.94,7.09,21.09
+leidos,leidos,0.10999017649017649,1.0,1.19,13.15,6.94,20.97
+leidos,leidos,0.10999017649017649,1.0,1.21,12.51,6.71,20.42
+labcorp,labcorp,0.11670323160559617,5.0,0.74,9.63,7.56,17.93
+labcorp,labcorp,0.11670323160559617,5.0,0.67,7.67,6.96,15.3
+labcorp,labcorp,0.11670323160559617,5.0,0.51,10.26,7.31,18.08
+labcorp,labcorp,0.11670323160559617,5.0,0.28,12.13,6.86,19.27
+lockheed martin,lockheed martin,0.09612293993205275,21.0,7.35,16.61,7.53,31.29
+lockheed martin,lockheed martin,0.09612293993205275,21.0,7.22,16.05,7.25,30.52
+lockheed martin,lockheed martin,0.09612293993205275,21.0,5.27,15.81,7.63,28.7
+lockheed martin,lockheed martin,0.09612293993205275,21.0,5.27,15.93,7.34,28.53
+southwest airlines,southwest airlines,0.11202291338225648,11.0,10.04,15.43,5.98,31.44
+southwest airlines,southwest airlines,0.11202291338225648,11.0,11.29,14.89,6.21,32.39
+las vegas sands,las vegas sands,0.12220483207786044,7.0,1.64,9.84,8.49,20.0
+las vegas sands,las vegas sands,0.12220483207786044,7.0,1.59,9.19,8.18,18.96
+las vegas sands,las vegas sands,0.12220483207786044,7.0,1.81,8.1,8.66,18.56
+las vegas sands,las vegas sands,0.12220483207786044,7.0,1.39,7.83,8.54,17.77
+lyondellbasell,lyondellbasell,0.14248778998779,1.0,16.23,2.75,7.35,25.97
+lyondellbasell,lyondellbasell,0.14248778998779,1.0,15.94,2.8,7.1,25.84
+lyondellbasell,lyondellbasell,0.14248778998779,1.0,16.35,2.88,7.1,26.33
+lyondellbasell,lyondellbasell,0.14248778998779,1.0,16.64,2.13,6.02,24.79
+mid-america apartment communities,,,,5.58,7.03,6.29,18.91
+mid-america apartment communities,,,,5.75,7.02,5.96,18.73
+mid-america apartment communities,,,,6.03,7.12,5.61,18.76
+medtronic,medtronic,0.14100991890054393,2.0,2.48,13.41,9.96,25.88
+medtronic,medtronic,0.14100991890054393,2.0,2.51,13.97,9.17,25.65
+medtronic,medtronic,0.14100991890054393,2.0,2.52,13.9,7.73,24.16
+medtronic,medtronic,0.14100991890054393,2.0,2.37,12.88,7.64,22.9
+mgm resorts,mgm resorts,0.13251665588401926,6.0,2.46,11.05,12.01,26.29
+mgm resorts,mgm resorts,0.13251665588401926,6.0,2.24,11.11,11.98,25.33
+mgm resorts,mgm resorts,0.13251665588401926,6.0,2.59,12.31,12.01,26.91
+mgm resorts,mgm resorts,0.13251665588401926,6.0,2.34,13.01,10.83,26.16
+mohawk industries,,,,5.55,4.29,4.56,14.41
+mohawk industries,,,,5.56,4.54,4.76,14.9
+mohawk industries,,,,5.64,4.49,4.71,14.85
+mohawk industries,,,,5.44,4.45,4.43,14.33
+mccormick & company,mccormick & company,0.06516230545248407,2.0,10.91,13.72,5.62,30.32
+mccormick & company,mccormick & company,0.06516230545248407,2.0,10.64,15.16,6.16,31.89
+mccormick & company,mccormick & company,0.06516230545248407,2.0,9.03,14.1,5.27,28.4
+martin marietta materials,martin marietta materials,0.15842222222222224,1.0,19.02,5.03,9.14,33.78
+martin marietta materials,martin marietta materials,0.15842222222222224,1.0,19.19,4.66,8.65,32.51
+martin marietta materials,martin marietta materials,0.15842222222222224,1.0,17.75,4.9,8.77,31.43
+martin marietta materials,martin marietta materials,0.15842222222222224,1.0,18.55,4.86,8.82,32.24
+marsh mclennan,,,,0.07,7.53,10.77,18.41
+marsh mclennan,,,,0.09,8.06,10.8,18.93
+marsh mclennan,,,,0.11,8.36,10.88,19.34
+3m,3m,0.0789210675957418,21.0,12.95,13.84,8.23,35.02
+3m,3m,0.0789210675957418,21.0,12.62,13.57,7.84,34.03
+3m,3m,0.0789210675957418,21.0,17.22,13.59,6.54,37.35
+marathon petroleum,marathon petroleum,0.09328907657339032,1.0,21.29,9.48,6.08,37.36
+marathon petroleum,marathon petroleum,0.09328907657339032,1.0,22.55,9.48,6.11,38.11
+marathon petroleum,marathon petroleum,0.09328907657339032,1.0,19.36,8.46,5.54,33.36
+marathon petroleum,marathon petroleum,0.09328907657339032,1.0,15.68,7.07,5.3,28.04
+merck & co.,merck &,0.053567636440857914,2.0,1.63,15.46,11.44,28.64
+merck & co.,merck &,0.053567636440857914,2.0,1.6,15.2,11.06,28.0
+merck & co.,merck &,0.053567636440857914,2.0,1.63,14.52,11.07,27.22
+merck & co.,merck &,0.053567636440857914,2.0,0.88,11.28,10.52,22.67
+msci inc.,,,,0.13,13.18,6.93,23.01
+msci inc.,,,,0.41,14.45,5.74,20.6
+msci inc.,,,,1.61,5.41,5.39,12.41
+m&t bank,,,,2.12,12.8,12.74,27.66
+m&t bank,,,,2.04,13.31,11.94,27.29
+m&t bank,,,,2.2,12.77,11.19,26.16
+mettler toledo,,,,0.92,6.1,5.62,12.71
+mettler toledo,,,,0.92,5.21,5.76,11.9
+mettler toledo,,,,0.78,5.71,5.51,12.0
+newmont,newmont,0.08625760684898467,10.0,10.41,9.06,5.65,25.13
+newmont,newmont,0.08625760684898467,10.0,9.66,9.06,5.04,23.77
+newmont,newmont,0.08625760684898467,10.0,8.91,10.88,4.94,24.73
+newmont,newmont,0.08625760684898467,10.0,7.8,9.37,5.09,22.26
+nrg energy,nrg energy,0.1032284067085954,2.0,19.68,11.27,7.84,38.88
+nrg energy,nrg energy,0.1032284067085954,2.0,20.93,11.35,7.91,40.19
+nrg energy,nrg energy,0.1032284067085954,2.0,17.26,8.95,5.55,31.75
+nrg energy,nrg energy,0.1032284067085954,2.0,17.26,8.95,5.46,31.66
+nucor,nucor,0.1415823959879754,6.0,12.3,15.22,9.23,36.75
+nucor,nucor,0.1415823959879754,6.0,10.07,14.21,9.39,33.66
+oracle corporation,oracle,0.18181818181818182,1.0,0.44,9.8,6.69,17.39
+oracle corporation,oracle,0.18181818181818182,1.0,0.43,10.39,6.54,17.67
+oracle corporation,oracle,0.18181818181818182,1.0,0.42,10.62,6.86,17.82
+oracle corporation,oracle,0.18181818181818182,1.0,0.43,10.96,6.75,18.13
+occidental petroleum,occidental petroleum,0.12203795156644784,7.0,19.72,10.85,6.61,37.17
+palo alto networks,palo alto networks,0.0902985316139073,11.0,0.75,7.98,5.7,14.43
+pg&e corporation,pg&e,0.10531814311340598,2.0,7.55,26.87,8.49,42.54
+pg&e corporation,pg&e,0.10531814311340598,2.0,7.8,26.87,8.46,43.13
+pg&e corporation,pg&e,0.10531814311340598,2.0,7.73,26.55,7.91,42.18
+pg&e corporation,pg&e,0.10531814311340598,2.0,8.41,20.65,6.17,35.23
+progressive corporation,,,,2.06,7.78,13.32,23.15
+progressive corporation,,,,2.06,8.78,13.41,24.24
+progressive corporation,,,,1.95,10.0,12.33,24.27
+progressive corporation,,,,1.72,8.38,10.96,21.06
+pultegroup,pultegroup,0.08314924181197875,3.0,7.62,8.73,5.02,21.47
+pultegroup,pultegroup,0.08314924181197875,3.0,7.81,9.42,4.98,22.07
+pultegroup,pultegroup,0.08314924181197875,3.0,7.6,8.76,4.96,21.29
+packaging corporation of america,,,,13.2,2.1,4.35,19.7
+packaging corporation of america,,,,13.24,2.07,4.2,19.5
+packaging corporation of america,,,,10.88,1.67,4.02,16.57
+packaging corporation of america,,,,9.78,1.39,3.77,14.94
+pnc financial services,,,,1.94,10.26,8.82,21.7
+pnc financial services,,,,1.84,10.28,8.2,20.82
+pnc financial services,,,,1.64,10.63,8.17,20.43
+pnc financial services,,,,1.77,12.39,8.53,22.7
+pentair,pentair,0.04166666666666667,1.0,8.73,15.61,6.9,31.27
+pentair,pentair,0.04166666666666667,1.0,9.49,15.52,7.05,32.06
+pentair,pentair,0.04166666666666667,1.0,9.83,14.8,7.25,31.88
+pinnacle west capital,,,,11.31,9.81,5.97,27.16
+pinnacle west capital,,,,11.54,10.29,6.16,28.0
+pinnacle west capital,,,,12.15,9.52,6.02,27.7
+ppg industries,ppg industries,0.12358970302241244,2.0,13.17,8.8,7.88,29.75
+ppg industries,ppg industries,0.12358970302241244,2.0,14.17,8.79,8.73,31.36
+ppg industries,ppg industries,0.12358970302241244,2.0,9.91,8.53,7.76,26.19
+ppg industries,ppg industries,0.12358970302241244,2.0,9.32,7.69,7.43,24.45
+phillips 66,phillips 66,0.16226365125174652,1.0,18.59,7.07,4.73,30.39
+phillips 66,phillips 66,0.16226365125174652,1.0,18.61,8.08,5.31,31.99
+phillips 66,phillips 66,0.16226365125174652,1.0,16.39,7.0,5.9,29.29
+quanta services,quanta services,0.029820707070707074,1.0,9.07,16.88,12.02,37.94
+quanta services,quanta services,0.029820707070707074,1.0,9.07,16.49,11.85,37.41
+quanta services,quanta services,0.029820707070707074,1.0,8.79,16.88,10.5,36.17
+nyse,,,,23.21,11.41,9.37,43.54
+nyse,,,,23.34,12.72,9.12,45.19
+nyse,,,,17.0,9.81,8.85,35.65
+nyse,,,,18.43,8.97,9.05,36.45
+raymond james financial,,,,1.69,12.46,14.34,28.48
+raymond james financial,,,,1.81,12.49,13.18,27.47
+raymond james financial,,,,1.43,11.23,12.39,25.05
+raymond james financial,,,,1.76,10.8,12.93,25.5
+resmed,,,,4.28,12.16,10.98,27.29
+resmed,,,,4.42,12.4,10.81,27.62
+resmed,,,,4.1,12.5,10.57,27.17
+resmed,,,,3.36,12.39,10.68,26.44
+rockwell automation,,,,6.49,9.06,6.73,22.29
+rockwell automation,,,,6.06,9.42,6.82,22.3
+rockwell automation,,,,5.51,9.52,6.53,21.56
+republic services,republic services,0.08684454856081608,6.0,12.83,7.81,3.81,24.53
+republic services,republic services,0.08684454856081608,6.0,13.04,6.95,3.79,23.78
+republic services,republic services,0.08684454856081608,6.0,12.11,6.4,3.72,22.22
+charles schwab corporation,charles schwab,0.048469853439732966,1.0,2.15,10.52,12.43,25.1
+charles schwab corporation,charles schwab,0.048469853439732966,1.0,2.25,10.15,11.59,23.99
+sherwin-williams,sherwin-williams,0.25,1.0,13.54,11.13,6.38,31.05
+sherwin-williams,sherwin-williams,0.25,1.0,13.12,11.2,6.1,30.42
+sherwin-williams,sherwin-williams,0.25,1.0,12.62,11.06,5.79,29.46
+j.m. smucker company (the),,,,10.81,16.35,6.39,33.62
+j.m. smucker company (the),,,,11.03,11.97,6.13,29.13
+j.m. smucker company (the),,,,11.07,9.85,6.2,27.12
+j.m. smucker company (the),,,,12.36,12.42,6.17,30.95
+schlumberger,schlumberger,0.11562209314612323,5.0,9.92,6.51,7.37,23.78
+schlumberger,schlumberger,0.11562209314612323,5.0,9.97,7.0,7.31,24.28
+schlumberger,schlumberger,0.11562209314612323,5.0,9.07,9.18,7.08,25.33
+schlumberger,schlumberger,0.11562209314612323,5.0,8.1,9.16,6.27,23.53
+s&p global,s&p global,0.11933508183334274,11.0,1.41,5.86,6.11,13.39
+s&p global,s&p global,0.11933508183334274,11.0,1.41,6.07,5.87,13.35
+s&p global,s&p global,0.11933508183334274,11.0,1.57,5.77,5.37,12.71
+simon property group,simon property group,0.12734106726606728,2.0,4.26,4.8,6.71,15.73
+simon property group,simon property group,0.12734106726606728,2.0,4.47,4.77,5.87,15.12
+simon property group,simon property group,0.12734106726606728,2.0,5.12,4.58,5.16,14.87
+simon property group,simon property group,0.12734106726606728,2.0,4.28,4.22,6.05,14.55
+sempra,sempra,0.10995669112053824,2.0,13.21,10.28,5.93,29.4
+sempra,sempra,0.10995669112053824,2.0,13.62,10.28,5.82,29.72
+sempra,sempra,0.10995669112053824,2.0,14.42,10.08,5.6,30.1
+state street corporation,,,,1.89,11.33,8.22,21.44
+state street corporation,,,,1.72,11.85,8.32,21.89
+state street corporation,,,,1.56,12.43,8.52,22.5
+state street corporation,,,,1.64,11.67,8.34,21.65
+constellation brands,constellation brands,0.09591552669987781,11.0,8.14,9.33,5.94,23.4
+constellation brands,constellation brands,0.09591552669987781,11.0,9.02,9.34,4.97,23.33
+constellation brands,constellation brands,0.09591552669987781,11.0,9.95,9.76,5.4,25.11
+stanley black & decker,stanley black & decker,0.11506230149995285,2.0,7.25,18.26,9.03,34.1
+stanley black & decker,stanley black & decker,0.11506230149995285,2.0,6.78,17.29,8.88,32.4
+stanley black & decker,stanley black & decker,0.11506230149995285,2.0,7.14,16.54,8.56,32.22
+stanley black & decker,stanley black & decker,0.11506230149995285,2.0,5.72,12.55,8.47,26.74
+synchrony financial,synchrony financial,0.14376825361476267,5.0,0.17,12.83,8.7,21.7
+synchrony financial,synchrony financial,0.14376825361476267,5.0,0.15,12.61,8.16,20.92
+synchrony financial,synchrony financial,0.14376825361476267,5.0,0.13,12.09,7.1,19.33
+stryker corporation,stryker,0.05,1.0,4.0,20.79,12.28,37.07
+stryker corporation,stryker,0.05,1.0,4.46,19.57,12.05,36.08
+stryker corporation,stryker,0.05,1.0,4.89,17.11,11.72,33.72
+stryker corporation,stryker,0.05,1.0,4.05,14.52,11.57,30.15
+sysco,sysco,0.0516217755685911,6.0,2.51,5.92,4.56,13.04
+sysco,sysco,0.0516217755685911,6.0,2.56,5.58,4.65,12.8
+sysco,sysco,0.0516217755685911,6.0,2.36,5.03,4.48,11.87
+sysco,sysco,0.0516217755685911,6.0,2.66,4.81,4.66,12.13
+transdigm group,,,,12.84,17.85,8.29,38.98
+truist financial,truist financial,0.16223009915670467,1.0,2.01,13.02,10.39,25.42
+nyse,,,,5.39,17.81,8.15,31.47
+nyse,,,,4.64,16.47,7.88,28.98
+nyse,,,,4.7,16.42,7.89,29.01
+nyse,,,,4.81,16.39,8.05,29.26
+target corporation,target,-0.02054093567251462,1.0,2.06,9.33,5.14,16.72
+target corporation,target,-0.02054093567251462,1.0,1.95,8.3,5.16,15.41
+target corporation,target,-0.02054093567251462,1.0,1.99,7.63,5.34,14.95
+target corporation,target,-0.02054093567251462,1.0,2.13,7.58,5.06,14.77
+tjx companies,tjx companies,0.0691693808836666,3.0,2.14,7.6,5.63,15.35
+tjx companies,tjx companies,0.0691693808836666,3.0,2.08,7.36,5.49,14.92
+tjx companies,tjx companies,0.0691693808836666,3.0,2.03,7.19,5.39,14.61
+tjx companies,tjx companies,0.0691693808836666,3.0,1.94,7.35,5.33,14.61
+"tapestry, inc.",tapestry,0.15842222222222224,1.0,1.66,6.82,5.74,14.19
+"tapestry, inc.",tapestry,0.15842222222222224,1.0,1.68,6.9,5.86,14.46
+"tapestry, inc.",tapestry,0.15842222222222224,1.0,1.16,7.46,5.05,13.66
+travelers companies (the),,,,1.55,9.07,12.95,23.58
+travelers companies (the),,,,1.55,9.16,12.09,22.8
+travelers companies (the),,,,1.44,8.7,11.02,21.16
+travelers companies (the),,,,1.08,8.2,10.53,19.79
+tyson foods,tyson foods,0.10151500898513141,17.0,14.94,13.61,14.67,42.77
+tyson foods,tyson foods,0.10151500898513141,17.0,14.28,14.25,13.28,41.72
+tyson foods,tyson foods,0.10151500898513141,17.0,15.3,15.55,12.96,43.81
+tyson foods,tyson foods,0.10151500898513141,17.0,12.66,13.47,10.03,36.16
+textron,textron,0.14551282051282052,1.0,10.29,19.16,7.44,37.36
+textron,textron,0.14551282051282052,1.0,10.6,19.61,7.36,37.85
+textron,textron,0.14551282051282052,1.0,10.99,19.99,7.19,38.18
+textron,textron,0.14551282051282052,1.0,9.8,18.25,7.34,35.39
+"udr, inc.",,,,5.74,6.91,6.06,18.73
+"udr, inc.",,,,4.76,5.57,5.84,16.17
+"udr, inc.",,,,3.77,4.23,5.17,13.17
+"udr, inc.",,,,3.2,3.83,5.28,12.31
+universal health services,,,,3.33,21.49,9.65,34.48
+universal health services,,,,3.45,19.39,8.72,31.57
+unitedhealth group,unitedhealth group,0.09082346947372166,11.0,0.03,15.1,6.01,20.94
+unitedhealth group,unitedhealth group,0.09082346947372166,11.0,0.03,14.9,5.95,20.88
+unitedhealth group,unitedhealth group,0.09082346947372166,11.0,0.03,15.16,5.79,20.99
+unitedhealth group,unitedhealth group,0.09082346947372166,11.0,0.03,11.59,5.89,17.51
+united parcel service,united parcel service,0.1004849252792146,3.0,5.53,9.35,6.18,21.06
+united parcel service,united parcel service,0.1004849252792146,3.0,5.6,9.35,5.89,20.84
+united parcel service,united parcel service,0.1004849252792146,3.0,4.92,9.45,5.36,19.72
+u.s. bancorp,,,,1.54,13.15,12.08,26.78
+valero energy,valero energy,0.03967569786535304,2.0,18.96,8.76,5.57,34.3
+valero energy,valero energy,0.03967569786535304,2.0,21.93,9.9,5.41,37.25
+vulcan materials company,,,,18.95,4.93,8.9,33.2
+vulcan materials company,,,,19.61,4.85,8.83,33.29
+vulcan materials company,,,,15.18,5.17,8.59,28.93
+vulcan materials company,,,,15.61,4.56,8.98,29.15
+ventas,,,,4.84,4.67,4.95,14.38
+ventas,,,,4.8,4.45,4.57,13.82
+ventas,,,,3.4,4.03,4.71,12.14
+ventas,,,,2.75,4.28,5.38,12.4
+verizon,verizon,0.08910241338856935,24.0,1.97,11.33,6.37,19.67
+verizon,verizon,0.08910241338856935,24.0,1.71,10.2,6.14,18.05
+verizon,verizon,0.08910241338856935,24.0,3.16,9.04,5.63,17.83
+verizon,verizon,0.08910241338856935,24.0,3.74,9.59,5.39,18.73
+wec energy group,,,,18.46,10.5,5.74,34.46
+wec energy group,,,,17.19,9.94,5.7,32.84
+wec energy group,,,,17.43,9.59,5.6,32.62
+wec energy group,,,,17.85,9.24,5.26,32.36
+wells fargo,wells fargo,0.06313808179133366,25.0,1.16,14.57,15.3,31.07
+wells fargo,wells fargo,0.06313808179133366,25.0,1.15,14.17,15.41,30.72
+wells fargo,wells fargo,0.06313808179133366,25.0,1.24,14.89,15.4,31.53
+wells fargo,wells fargo,0.06313808179133366,25.0,1.94,15.4,15.51,32.84
+williams companies,,,,15.42,13.17,3.36,32.0
+williams companies,,,,13.77,10.26,3.33,27.36
+williams companies,,,,9.0,8.52,3.22,20.75
+williams companies,,,,9.53,9.79,3.16,22.49
+walmart,walmart,0.09504095704642423,38.0,3.47,19.64,8.07,30.14
+walmart,walmart,0.09504095704642423,38.0,3.7,17.6,7.34,28.66
+walmart,walmart,0.09504095704642423,38.0,3.36,17.22,6.83,27.41
+walmart,walmart,0.09504095704642423,38.0,4.4,15.79,6.31,26.49
+w. r. berkley corporation,,,,2.02,10.89,16.47,29.32
+w. r. berkley corporation,,,,1.72,10.62,15.62,27.96
+w. r. berkley corporation,,,,2.0,8.15,14.57,24.73
+exxonmobil,exxonmobil,0.0827375725377836,29.0,18.52,10.29,8.46,37.42
+exxonmobil,exxonmobil,0.0827375725377836,29.0,18.64,10.16,8.46,37.27
+exxonmobil,exxonmobil,0.0827375725377836,29.0,16.14,9.91,8.01,34.06
+exxonmobil,exxonmobil,0.0827375725377836,29.0,18.75,10.06,8.13,36.93
+xylem inc.,,,,2.82,9.81,5.48,18.14
+xylem inc.,,,,2.94,9.56,5.37,17.86
+xylem inc.,,,,3.53,7.81,5.11,16.45
+yum! brands,yum brands,0.06679328464486536,7.0,4.1,10.86,5.39,20.36
+yum! brands,yum brands,0.06679328464486536,7.0,3.35,10.55,4.58,18.48
+yum! brands,yum brands,0.06679328464486536,7.0,3.82,12.39,4.5,20.72
+yum! brands,yum brands,0.06679328464486536,7.0,4.25,12.13,4.74,21.12
+zimmer biomet,,,,3.8,18.2,12.41,34.25
+zimmer biomet,,,,4.3,18.72,11.08,34.1
+zimmer biomet,,,,4.74,17.84,10.35,32.94
+zoetis,zoetis,0.13089670514670515,2.0,2.72,13.98,11.49,28.19
+zoetis,zoetis,0.13089670514670515,2.0,1.98,9.39,10.63,21.99
+charter communications,charter communications,0.14887240190365195,1.0,2.53,9.1,7.97,19.65
+charter communications,charter communications,0.14887240190365195,1.0,2.22,9.86,7.89,19.97
+charter communications,charter communications,0.14887240190365195,1.0,2.65,10.84,8.08,21.57
+charter communications,charter communications,0.14887240190365195,1.0,5.57,13.1,7.76,26.43
+abbott laboratories,,,,3.02,15.68,10.4,29.1
+abbott laboratories,,,,3.02,15.68,10.4,29.1
+equifax,equifax,0.07721034709265542,7.0,0.16,18.63,6.95,25.73
+motorola solutions,motorola solutions,0.39,2.0,1.4,8.98,5.48,15.46
+motorola solutions,motorola solutions,0.39,2.0,1.4,8.55,5.48,15.21
