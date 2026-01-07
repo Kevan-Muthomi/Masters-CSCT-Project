@@ -1,0 +1,2066 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='final_tableau_dataset_with_sector' inline='true' name='federated.1ssais711ltzuw147m0gb1szvwc3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='final_tableau_dataset_with_sector' name='textscan.0nvfwa50srvfku10rxdx41jliffa'>
+            <connection class='textscan' directory='C:/Users/HomePC/Desktop/Masters CSCT Project/Project Files/Notebooks' filename='final_tableau_dataset_with_sector.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0nvfwa50srvfku10rxdx41jliffa' name='final_tableau_dataset_with_sector.csv' table='[final_tableau_dataset_with_sector#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='Company_CSR' ordinal='0' />
+            <column datatype='string' name='Sector' ordinal='1' />
+            <column datatype='real' name='avg_sentiment' ordinal='2' />
+            <column datatype='real' name='post_count' ordinal='3' />
+            <column datatype='real' name='e_score' ordinal='4' />
+            <column datatype='real' name='s_score' ordinal='5' />
+            <column datatype='real' name='g_score' ordinal='6' />
+            <column datatype='real' name='total_score' ordinal='7' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[final_tableau_dataset_with_sector.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company_CSR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company_CSR]</local-name>
+            <parent-name>[final_tableau_dataset_with_sector.csv]</parent-name>
+            <remote-alias>Company_CSR</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sector</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sector]</local-name>
+            <parent-name>[final_tableau_dataset_with_sector.csv]</parent-name>
+            <remote-alias>Sector</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_sentiment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_sentiment]</local-name>
+            <parent-name>[final_tableau_dataset_with_sector.csv]</parent-name>
+            <remote-alias>avg_sentiment</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>post_count</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[post_count]</local-name>
+            <parent-name>[final_tableau_dataset_with_sector.csv]</parent-name>
+            <remote-alias>post_count</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>e_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[e_score]</local-name>
+            <parent-name>[final_tableau_dataset_with_sector.csv]</parent-name>
+            <remote-alias>e_score</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>s_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[s_score]</local-name>
+            <parent-name>[final_tableau_dataset_with_sector.csv]</parent-name>
+            <remote-alias>s_score</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>g_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[g_score]</local-name>
+            <parent-name>[final_tableau_dataset_with_sector.csv]</parent-name>
+            <remote-alias>g_score</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_score]</local-name>
+            <parent-name>[final_tableau_dataset_with_sector.csv]</parent-name>
+            <remote-alias>total_score</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='ESG Quartile' datatype='string' name='[Calculation_1316739964432113664]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.75) } THEN &quot;High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.50) } THEN &quot;Medium-High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.25) } THEN &quot;Medium-Low ESG&quot;&#13;&#10;ELSE &quot;Low ESG&quot;&#13;&#10;END' />
+      </column>
+      <column caption='CSR-Sentiment Alignment' datatype='string' name='[Calculation_1316739964433010689]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [total_score] &gt;= { FIXED : MEDIAN([total_score]) }&#13;&#10;AND [avg_sentiment] &gt;= { FIXED : MEDIAN([avg_sentiment]) }&#13;&#10;THEN &quot;Aligned&quot;&#13;&#10;ELSE &quot;Misaligned&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Engagement Weight' datatype='real' name='[Calculation_1316739964433321986]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='LOG([post_count] + 1)' />
+      </column>
+      <column caption='Company CSR' datatype='string' name='[Company_CSR]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+      <column caption='final_tableau_dataset_with_sector.csv' datatype='table' name='[__tableau_internal_object_id__].[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]' role='measure' type='quantitative' />
+      <column caption='Avg Sentiment' datatype='real' name='[avg_sentiment]' role='measure' type='quantitative' />
+      <column caption='E Score' datatype='real' name='[e_score]' role='measure' type='quantitative' />
+      <column caption='G Score' datatype='real' name='[g_score]' role='measure' type='quantitative' />
+      <column caption='Post Count' datatype='real' name='[post_count]' role='measure' type='quantitative' />
+      <column caption='S Score' datatype='real' name='[s_score]' role='measure' type='quantitative' />
+      <column caption='Total Score' datatype='real' name='[total_score]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1316739964432113664]' derivation='None' name='[none:Calculation_1316739964432113664:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_1316739964433010689]' derivation='None' name='[none:Calculation_1316739964433010689:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Company_CSR]' derivation='None' name='[none:Company_CSR:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_1316739964433321986]' derivation='Sum' name='[sum:Calculation_1316739964433321986:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[avg_sentiment]' derivation='Sum' name='[sum:avg_sentiment:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[e_score]' derivation='Sum' name='[sum:e_score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[g_score]' derivation='Sum' name='[sum:g_score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[post_count]' derivation='Sum' name='[sum:post_count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[s_score]' derivation='Sum' name='[sum:s_score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[total_score]' derivation='Sum' name='[sum:total_score:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/HomePC/AppData/Local/Temp/TableauTemp/#TableauTemp_0ll4fh80h8aau91fd111i0ochbyu.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='01/02/2026 02:14:09 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Company_CSR</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Company_CSR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Company_CSR</remote-alias>
+              <ordinal>0</ordinal>
+              <family>final_tableau_dataset_with_sector.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>252</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sector</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sector]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sector</remote-alias>
+              <ordinal>1</ordinal>
+              <family>final_tableau_dataset_with_sector.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>avg_sentiment</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[avg_sentiment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>avg_sentiment</remote-alias>
+              <ordinal>2</ordinal>
+              <family>final_tableau_dataset_with_sector.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>163</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>post_count</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[post_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>post_count</remote-alias>
+              <ordinal>3</ordinal>
+              <family>final_tableau_dataset_with_sector.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>e_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[e_score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>e_score</remote-alias>
+              <ordinal>4</ordinal>
+              <family>final_tableau_dataset_with_sector.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>608</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>s_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[s_score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>s_score</remote-alias>
+              <ordinal>5</ordinal>
+              <family>final_tableau_dataset_with_sector.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>643</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>g_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[g_score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>g_score</remote-alias>
+              <ordinal>6</ordinal>
+              <family>final_tableau_dataset_with_sector.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>537</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total_score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_score</remote-alias>
+              <ordinal>7</ordinal>
+              <family>final_tableau_dataset_with_sector.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>734</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Company_CSR:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;air products&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;autodesk&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;carnival&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;conocophillips&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;edison international&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;global payments&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;j.b. hunt&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;marsh mclennan&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;norwegian cruise line holdings&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;progressive corporation&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;stanley black &amp; decker&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;tyson foods&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;xylem inc.&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;3m&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;apa corporation&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;broadcom&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;cintas&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;dexcom&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;fedex&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;illinois tool works&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;las vegas sands&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;motorola solutions&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;paypal&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;sba communications&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;tesla, inc.&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;w. r. berkley corporation&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;accenture&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;archer daniels midland&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;camden property trust&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;cms energy&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;duke energy&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;fortive&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;intuit&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;lululemon athletica&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;netapp&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;pinnacle west capital&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;sherwin-williams&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;transdigm group&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;wells fargo&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;ameren&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;baxter international&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;centerpoint energy&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;corning inc.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;equinix&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;hilton worldwide&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;johnson controls&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;merck &amp; co.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;nxp semiconductors&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;quanta services&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;stryker corporation&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;unitedhealth group&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;akamai technologies&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;automatic data processing&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;cboe global markets&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;constellation brands&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;eog resources&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;hartford (the)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;j.m. smucker company (the)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;martin marietta materials&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;nrg energy&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ptc inc.&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;starbucks&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;u.s. bancorp&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;yum! brands&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;adobe inc.&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;arthur j. gallagher &amp; co.&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;campbell&apos;s company (the)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;cognizant&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;eaton corporation&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;freeport-mcmoran&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;intuitive surgical&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;lyondellbasell&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;newmont&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;pnc financial services&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;simon property group&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;travelers companies (the)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;western digital&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ameriprise financial&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;boston scientific&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;church &amp; dwight&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;danaher corporation&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;fastenal&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;idex corporation&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;labcorp&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;mohawk industries&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;palo alto networks&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;rockwell automation&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;tapestry, inc.&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;vertex pharmaceuticals&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;a. o. smith&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;apple inc.&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;bxp, inc.&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;cisco&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;digital realty&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;fidelity national information services&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;incyte&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;leidos&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;msci inc.&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;pentair&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;schlumberger&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;texas instruments&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;w. w. grainger&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;american tower&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;bny mellon&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;chipotle mexican grill&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;cummins&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;exxonmobil&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;huntington bancshares&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;kla corporation&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;microsoft&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;paccar&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;republic services&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;t-mobile us&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;verisk analytics&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;aflac&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;assurant&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;capital one&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;comcast&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ebay inc.&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;garmin&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;invesco&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;m&amp;t bank&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;nordson corporation&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ppg industries&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;skyworks solutions&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;trimble inc.&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;williams companies&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;american electric power&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;becton dickinson&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;charles schwab corporation&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;costar group&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;equity residential&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;hologic&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;jpmorgan chase&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;mettler toledo&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;nyse&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;quest diagnostics&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;synchrony financial&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;universal health services&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;american express&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;best buy&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;charter communications&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;coterra&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;expeditors international&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;hormel foods&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;kimberly-clark&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;mgm resorts&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;occidental petroleum&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;raymond james financial&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;synopsys&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;valero energy&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;american water works&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;booking holdings&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;chubb limited&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;d. r. horton&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;f5, inc.&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;ibm&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;kraft heinz&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;mid-america apartment communities&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;packaging corporation of america&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;resmed&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;t. rowe price&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;verizon&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;amgen&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;bristol myers squibb&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;cincinnati financial&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;devon energy&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;federal realty investment trust&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;idexx laboratories&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;lam research&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;mondelez international&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;paychex&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;s&amp;p global&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;target corporation&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;vulcan materials company&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;albemarle corporation&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;avalonbay communities&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;cbre group&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;cooper companies (the)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;eqt corporation&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;henry schein&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;jack henry &amp; associates&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;mccormick &amp; company&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;nucor&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;pultegroup&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;state street corporation&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;udr, inc.&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;zimmer biomet&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;agilent technologies&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;atmos energy&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;cardinal health&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;conagra brands&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ecolab&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;genuine parts company&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;iqvia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;marathon petroleum&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;northern trust&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;principal financial group&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;southwest airlines&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;truist financial&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;wynn resorts&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;abbott laboratories&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;aptiv&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;c.h. robinson&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;citizens financial group&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;dollar tree&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;fifth third bancorp&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;intel&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;lkq corporation&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;nasdaq&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;pg&amp;e corporation&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;seagate technology&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;textron&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;walmart&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;american international group&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;biogen&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;chevron corporation&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;csx corporation&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;extra space storage&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;host hotels &amp; resorts&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;kinder morgan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;microchip technology&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;oracle corporation&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;regeneron pharmaceuticals&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;sysco&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;ventas&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;amazon&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;avery dennison&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;centene corporation&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;copart&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;equifax&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;hershey company (the)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;johnson &amp; johnson&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;medtronic&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;nvidia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;qualcomm&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;steel dynamics&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;united parcel service&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;zoetis&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;abbvie&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;arch capital group&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;cadence design systems&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;cme group&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;domino&apos;s&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;fortinet&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;interpublic group of companies (the)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;lockheed martin&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;nasdaq, inc.&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;phillips 66&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;sempra&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;tjx companies&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;wec energy group&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Sector:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Information Technology&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Energy&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Materials&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Financials&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Communication Services&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Health Care&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Real Estate&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Industrials&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Consumer Discretionary&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Utilities&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Consumer Staples&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:avg_sentiment:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:s_score:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:g_score:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:Calculation_1316739964433321986:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:e_score:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1ssais711ltzuw147m0gb1szvwc3].[__tableau_internal_object_id__].[cnt:final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:total_score:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:post_count:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_1316739964433010689:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Aligned&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Misaligned&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_1316739964432113664:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;High ESG&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Medium-Low ESG&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Medium-High ESG&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Low ESG&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='final_tableau_dataset_with_sector.csv' id='final_tableau_dataset_with_sector.csv_BBC8E94161A941A087D591D558A94F8D'>
+            <properties context=''>
+              <relation connection='textscan.0nvfwa50srvfku10rxdx41jliffa' name='final_tableau_dataset_with_sector.csv' table='[final_tableau_dataset_with_sector#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='Company_CSR' ordinal='0' />
+                  <column datatype='string' name='Sector' ordinal='1' />
+                  <column datatype='real' name='avg_sentiment' ordinal='2' />
+                  <column datatype='real' name='post_count' ordinal='3' />
+                  <column datatype='real' name='e_score' ordinal='4' />
+                  <column datatype='real' name='s_score' ordinal='5' />
+                  <column datatype='real' name='g_score' ordinal='6' />
+                  <column datatype='real' name='total_score' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.1ssais711ltzuw147m0gb1szvwc3'>
+      <datasources>
+        <datasource caption='final_tableau_dataset_with_sector' name='federated.1ssais711ltzuw147m0gb1szvwc3' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1ssais711ltzuw147m0gb1szvwc3'>
+        <column caption='ESG Quartile' datatype='string' name='[Calculation_1316739964432113664]' role='dimension' type='nominal'>
+          <calculation class='tableau' formula='IF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.75) } THEN &quot;High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.50) } THEN &quot;Medium-High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.25) } THEN &quot;Medium-Low ESG&quot;&#13;&#10;ELSE &quot;Low ESG&quot;&#13;&#10;END' />
+        </column>
+        <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+        <column-instance column='[Calculation_1316739964432113664]' derivation='None' name='[none:Calculation_1316739964432113664:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]'>
+        <groupfilter function='level-members' level='[none:Calculation_1316739964432113664:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]'>
+        <groupfilter function='level-members' level='[none:Sector:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Highlight1' name='[Action1_9DD085A1A9004C7B992E4F4573ADA6C2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='all' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Company CSR' />
+        <param name='target' value='CSR - Alignment Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Alignment Indicator'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_tableau_dataset_with_sector' name='federated.1ssais711ltzuw147m0gb1szvwc3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ssais711ltzuw147m0gb1szvwc3'>
+            <column caption='ESG Quartile' datatype='string' name='[Calculation_1316739964432113664]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.75) } THEN &quot;High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.50) } THEN &quot;Medium-High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.25) } THEN &quot;Medium-Low ESG&quot;&#13;&#10;ELSE &quot;Low ESG&quot;&#13;&#10;END' />
+            </column>
+            <column caption='CSR-Sentiment Alignment' datatype='string' name='[Calculation_1316739964433010689]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [total_score] &gt;= { FIXED : MEDIAN([total_score]) }&#13;&#10;AND [avg_sentiment] &gt;= { FIXED : MEDIAN([avg_sentiment]) }&#13;&#10;THEN &quot;Aligned&quot;&#13;&#10;ELSE &quot;Misaligned&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Company CSR' datatype='string' name='[Company_CSR]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column caption='Avg Sentiment' datatype='real' name='[avg_sentiment]' role='measure' type='quantitative' />
+            <column-instance column='[Company_CSR]' derivation='Count' name='[cnt:Company_CSR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1316739964432113664]' derivation='None' name='[none:Calculation_1316739964432113664:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1316739964433010689]' derivation='None' name='[none:Calculation_1316739964433010689:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column caption='Total Score' datatype='real' name='[total_score]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]</column>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964433010689:nk]' />
+              <text column='[federated.1ssais711ltzuw147m0gb1szvwc3].[cnt:Company_CSR:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ssais711ltzuw147m0gb1szvwc3].[cnt:Company_CSR:qk]</rows>
+        <cols>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964433010689:nk]</cols>
+      </table>
+      <simple-id uuid='{0C3455A4-B281-4B4E-B14F-821EDA96F0BC}' />
+    </worksheet>
+    <worksheet name='ESG Pillar Comparison'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_tableau_dataset_with_sector' name='federated.1ssais711ltzuw147m0gb1szvwc3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ssais711ltzuw147m0gb1szvwc3'>
+            <column caption='ESG Quartile' datatype='string' name='[Calculation_1316739964432113664]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.75) } THEN &quot;High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.50) } THEN &quot;Medium-High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.25) } THEN &quot;Medium-Low ESG&quot;&#13;&#10;ELSE &quot;Low ESG&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Company CSR' datatype='string' name='[Company_CSR]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column caption='E Score' datatype='real' name='[e_score]' role='measure' type='quantitative' />
+            <column caption='G Score' datatype='real' name='[g_score]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1316739964432113664]' derivation='None' name='[none:Calculation_1316739964432113664:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Company_CSR]' derivation='None' name='[none:Company_CSR:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column caption='S Score' datatype='real' name='[s_score]' role='measure' type='quantitative' />
+            <column-instance column='[e_score]' derivation='Sum' name='[sum:e_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[g_score]' derivation='Sum' name='[sum:g_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[s_score]' derivation='Sum' name='[sum:s_score:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Score' datatype='real' name='[total_score]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ssais711ltzuw147m0gb1szvwc3].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:s_score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:g_score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:e_score:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <alphabetic-sort column='[federated.1ssais711ltzuw147m0gb1szvwc3].[:Measure Names]' direction='DESC' />
+          <slices>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[:Measure Names]</column>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]</column>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.1ssais711ltzuw147m0gb1szvwc3].[Multiple Values]' value='10' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='18' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ssais711ltzuw147m0gb1szvwc3].[:Measure Names]' />
+              <lod column='[federated.1ssais711ltzuw147m0gb1szvwc3].[Multiple Values]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ssais711ltzuw147m0gb1szvwc3].[Multiple Values]</rows>
+        <cols>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Company_CSR:nk]</cols>
+      </table>
+      <simple-id uuid='{122AB4F8-4BB1-4BCE-9A01-DBD9F40AE1A9}' />
+    </worksheet>
+    <worksheet name='ESG vs Reddit Sentiment'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>ESG vs Reddit Sentiment</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_tableau_dataset_with_sector' name='federated.1ssais711ltzuw147m0gb1szvwc3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ssais711ltzuw147m0gb1szvwc3'>
+            <column caption='ESG Quartile' datatype='string' name='[Calculation_1316739964432113664]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.75) } THEN &quot;High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.50) } THEN &quot;Medium-High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.25) } THEN &quot;Medium-Low ESG&quot;&#13;&#10;ELSE &quot;Low ESG&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column caption='Avg Sentiment' datatype='real' name='[avg_sentiment]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1316739964432113664]' derivation='None' name='[none:Calculation_1316739964432113664:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column caption='Post Count' datatype='real' name='[post_count]' role='measure' type='quantitative' />
+            <column-instance column='[avg_sentiment]' derivation='Sum' name='[sum:avg_sentiment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[post_count]' derivation='Sum' name='[sum:post_count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total_score]' derivation='Sum' name='[sum:total_score:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Score' datatype='real' name='[total_score]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>%null%</bucket>
+              <bucket>&quot;Communication Services&quot;</bucket>
+              <bucket>&quot;Consumer Discretionary&quot;</bucket>
+              <bucket>&quot;Consumer Staples&quot;</bucket>
+              <bucket>&quot;Energy&quot;</bucket>
+              <bucket>&quot;Financials&quot;</bucket>
+              <bucket>&quot;Health Care&quot;</bucket>
+              <bucket>&quot;Industrials&quot;</bucket>
+              <bucket>&quot;Information Technology&quot;</bucket>
+              <bucket>&quot;Materials&quot;</bucket>
+              <bucket>&quot;Real Estate&quot;</bucket>
+              <bucket>&quot;Utilities&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]</column>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:total_score:qk]' field-type='quantitative' max='3642.7834904728338' min='-1104.0814471389745' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:avg_sentiment:qk]' field-type='quantitative' max='14.978865900646351' min='-2.9089352806016135' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]' />
+              <size column='[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:post_count:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:avg_sentiment:qk]</rows>
+        <cols>[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:total_score:qk]</cols>
+      </table>
+      <simple-id uuid='{D50E6717-4DC9-409C-A541-A2E68D8B6541}' />
+    </worksheet>
+    <worksheet name='Sector- Aligned'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_tableau_dataset_with_sector' name='federated.1ssais711ltzuw147m0gb1szvwc3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ssais711ltzuw147m0gb1szvwc3'>
+            <column caption='ESG Quartile' datatype='string' name='[Calculation_1316739964432113664]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.75) } THEN &quot;High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.50) } THEN &quot;Medium-High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.25) } THEN &quot;Medium-Low ESG&quot;&#13;&#10;ELSE &quot;Low ESG&quot;&#13;&#10;END' />
+            </column>
+            <column caption='CSR-Sentiment Alignment' datatype='string' name='[Calculation_1316739964433010689]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [total_score] &gt;= { FIXED : MEDIAN([total_score]) }&#13;&#10;AND [avg_sentiment] &gt;= { FIXED : MEDIAN([avg_sentiment]) }&#13;&#10;THEN &quot;Aligned&quot;&#13;&#10;ELSE &quot;Misaligned&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Company CSR' datatype='string' name='[Company_CSR]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column caption='Avg Sentiment' datatype='real' name='[avg_sentiment]' role='measure' type='quantitative' />
+            <column-instance column='[Company_CSR]' derivation='Count' name='[cnt:Company_CSR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1316739964432113664]' derivation='None' name='[none:Calculation_1316739964432113664:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1316739964433010689]' derivation='None' name='[none:Calculation_1316739964433010689:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column caption='Total Score' datatype='real' name='[total_score]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964433010689:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1316739964433010689:nk]' member='&quot;Aligned&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964433010689:nk]</column>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]</column>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ssais711ltzuw147m0gb1szvwc3].[cnt:Company_CSR:qk]' palette='green_gold_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1ssais711ltzuw147m0gb1szvwc3].[cnt:Company_CSR:qk]' />
+              <color column='[federated.1ssais711ltzuw147m0gb1szvwc3].[cnt:Company_CSR:qk]' />
+              <text column='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]' />
+              <text column='[federated.1ssais711ltzuw147m0gb1szvwc3].[cnt:Company_CSR:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{834DD612-8611-42F1-917B-09304D7EC4FF}' />
+    </worksheet>
+    <worksheet name='Sector- Misaligned'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_tableau_dataset_with_sector' name='federated.1ssais711ltzuw147m0gb1szvwc3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ssais711ltzuw147m0gb1szvwc3'>
+            <column caption='ESG Quartile' datatype='string' name='[Calculation_1316739964432113664]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.75) } THEN &quot;High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.50) } THEN &quot;Medium-High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.25) } THEN &quot;Medium-Low ESG&quot;&#13;&#10;ELSE &quot;Low ESG&quot;&#13;&#10;END' />
+            </column>
+            <column caption='CSR-Sentiment Alignment' datatype='string' name='[Calculation_1316739964433010689]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [total_score] &gt;= { FIXED : MEDIAN([total_score]) }&#13;&#10;AND [avg_sentiment] &gt;= { FIXED : MEDIAN([avg_sentiment]) }&#13;&#10;THEN &quot;Aligned&quot;&#13;&#10;ELSE &quot;Misaligned&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Company CSR' datatype='string' name='[Company_CSR]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column caption='Avg Sentiment' datatype='real' name='[avg_sentiment]' role='measure' type='quantitative' />
+            <column-instance column='[Company_CSR]' derivation='Count' name='[cnt:Company_CSR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1316739964432113664]' derivation='None' name='[none:Calculation_1316739964432113664:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1316739964433010689]' derivation='None' name='[none:Calculation_1316739964433010689:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column caption='Total Score' datatype='real' name='[total_score]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964433010689:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1316739964433010689:nk]' member='&quot;Misaligned&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964433010689:nk]</column>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]</column>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ssais711ltzuw147m0gb1szvwc3].[cnt:Company_CSR:qk]' palette='red_gold_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1ssais711ltzuw147m0gb1szvwc3].[cnt:Company_CSR:qk]' />
+              <color column='[federated.1ssais711ltzuw147m0gb1szvwc3].[cnt:Company_CSR:qk]' />
+              <text column='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]' />
+              <text column='[federated.1ssais711ltzuw147m0gb1szvwc3].[cnt:Company_CSR:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0889886E-2DB8-4391-8FB3-09004031B6A3}' />
+    </worksheet>
+    <worksheet name='Sentiment Distribution by ESG Quartile'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_tableau_dataset_with_sector' name='federated.1ssais711ltzuw147m0gb1szvwc3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ssais711ltzuw147m0gb1szvwc3'>
+            <column caption='ESG Quartile' datatype='string' name='[Calculation_1316739964432113664]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.75) } THEN &quot;High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.50) } THEN &quot;Medium-High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.25) } THEN &quot;Medium-Low ESG&quot;&#13;&#10;ELSE &quot;Low ESG&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column caption='Avg Sentiment' datatype='real' name='[avg_sentiment]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1316739964432113664]' derivation='None' name='[none:Calculation_1316739964432113664:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[avg_sentiment]' derivation='Sum' name='[sum:avg_sentiment:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Score' datatype='real' name='[total_score]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]</column>
+            <column>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:avg_sentiment:qk]</rows>
+        <cols>[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]</cols>
+      </table>
+      <simple-id uuid='{926611B0-DDD5-439A-8BE2-1EC7A2110902}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='CSR - Alignment Dashboard'>
+      <style />
+      <size maxheight='1200' maxwidth='1300' sizing-mode='range' />
+      <datasources>
+        <datasource caption='final_tableau_dataset_with_sector' name='federated.1ssais711ltzuw147m0gb1szvwc3' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1ssais711ltzuw147m0gb1szvwc3'>
+        <column caption='ESG Quartile' datatype='string' name='[Calculation_1316739964432113664]' role='dimension' type='nominal'>
+          <calculation class='tableau' formula='IF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.75) } THEN &quot;High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.50) } THEN &quot;Medium-High ESG&quot;&#13;&#10;ELSEIF [total_score] &gt;= { FIXED : PERCENTILE([total_score], 0.25) } THEN &quot;Medium-Low ESG&quot;&#13;&#10;ELSE &quot;Low ESG&quot;&#13;&#10;END' />
+        </column>
+        <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+        <column-instance column='[Calculation_1316739964432113664]' derivation='None' name='[none:Calculation_1316739964432113664:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98144' id='7' param='horz' type-v2='layout-flow' w='98770' x='615' y='928'>
+            <zone h='98144' id='5' type-v2='layout-basic' w='86462' x='615' y='928'>
+              <zone h='39457' id='3' name='ESG vs Reddit Sentiment' w='86462' x='615' y='928'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='34201' id='11' name='ESG Pillar Comparison' w='51465' x='35612' y='40385'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='30314' id='14' name='Alignment Indicator' w='34997' x='615' y='40385'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='28373' id='16' name='Sentiment Distribution by ESG Quartile' w='34997' x='615' y='70699'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='24486' id='18' name='Sector- Aligned' w='25000' x='35612' y='74586'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='24486' id='20' name='Sector- Misaligned' w='26465' x='60612' y='74586'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98144' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='12308' x='87077' y='928'>
+              <zone h='16444' id='8' name='ESG vs Reddit Sentiment' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]' type-v2='filter' w='12308' x='87077' y='928'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='16444' id='9' name='ESG vs Reddit Sentiment' pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]' type-v2='color' w='12308' x='87077' y='17372'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='16444' id='10' name='ESG vs Reddit Sentiment' pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:post_count:qk]' type-v2='size' w='12308' x='87077' y='33816'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='16444' id='12' name='ESG Pillar Comparison' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]' type-v2='filter' w='12308' x='87077' y='50260'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10789' id='13' name='ESG Pillar Comparison' pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[:Measure Names]' type-v2='color' w='12308' x='87077' y='66704'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8353' id='15' name='Alignment Indicator' pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964433010689:nk]' type-v2='color' w='12308' x='87077' y='77493'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='13226' id='17' name='Sentiment Distribution by ESG Quartile' pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]' type-v2='color' w='12308' x='87077' y='85846'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2200' minheight='2200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='26' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98170' id='25' param='vert' type-v2='layout-flow' w='98770' x='615' y='915'>
+                <zone h='16562' id='8' mode='checkdropdown' name='ESG vs Reddit Sentiment' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]' type-v2='filter' w='12308' x='87077' y='915'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='39470' id='3' is-fixed='true' name='ESG vs Reddit Sentiment' w='86462' x='615' y='915'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='16562' id='9' name='ESG vs Reddit Sentiment' pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]' type-v2='color' w='12308' x='87077' y='17477'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='16562' id='10' name='ESG vs Reddit Sentiment' pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:post_count:qk]' type-v2='size' w='12308' x='87077' y='34039'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='30322' id='14' is-fixed='true' name='Alignment Indicator' w='34999' x='615' y='40385'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8238' id='15' name='Alignment Indicator' pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964433010689:nk]' type-v2='color' w='12308' x='87077' y='77803'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='16562' id='12' mode='checkdropdown' name='ESG Pillar Comparison' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]' type-v2='filter' w='12308' x='87077' y='50601'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='34210' id='11' is-fixed='true' name='ESG Pillar Comparison' w='51463' x='35614' y='40385'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10640' id='13' name='ESG Pillar Comparison' pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[:Measure Names]' type-v2='color' w='12308' x='87077' y='67163'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='28378' id='16' is-fixed='true' name='Sentiment Distribution by ESG Quartile' w='34999' x='615' y='70707'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13044' id='17' name='Sentiment Distribution by ESG Quartile' pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]' type-v2='color' w='12308' x='87077' y='86041'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='24490' id='18' is-fixed='true' name='Sector- Aligned' w='25000' x='35614' y='74595'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='24490' id='20' is-fixed='true' name='Sector- Misaligned' w='26463' x='60614' y='74595'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1A4A9E6D-E955-4F69-952F-FADC0765737B}' />
+    </dashboard>
+  </dashboards>
+  <windows pres-mode='true' source-height='37'>
+    <window class='worksheet' name='ESG vs Reddit Sentiment'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='37'>
+            <card type='columns' />
+          </strip>
+          <strip size='37'>
+            <card type='rows' />
+          </strip>
+          <strip size='37'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Sector:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[sum:post_count:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='1' />
+      </viewpoint>
+      <simple-id uuid='{691A2C2B-3CE7-41F1-BB7A-F413C141CCBE}' />
+    </window>
+    <window class='worksheet' name='ESG Pillar Comparison'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='37'>
+            <card type='columns' />
+          </strip>
+          <strip size='37'>
+            <card type='rows' />
+          </strip>
+          <strip size='37'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9B598970-8C9F-4DE0-89D3-44D3580FC86B}' />
+    </window>
+    <window class='worksheet' name='Sentiment Distribution by ESG Quartile'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='37'>
+            <card type='columns' />
+          </strip>
+          <strip size='37'>
+            <card type='rows' />
+          </strip>
+          <strip size='37'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964432113664:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D8C73304-7BD6-4B42-A3E1-600A9ECBD383}' />
+    </window>
+    <window class='worksheet' name='Alignment Indicator'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='37'>
+            <card type='columns' />
+          </strip>
+          <strip size='37'>
+            <card type='rows' />
+          </strip>
+          <strip size='37'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[none:Calculation_1316739964433010689:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7C236941-D1DF-40A7-83F8-DABCD607ECCF}' />
+    </window>
+    <window class='worksheet' name='Sector- Aligned'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='37'>
+            <card type='columns' />
+          </strip>
+          <strip size='37'>
+            <card type='rows' />
+          </strip>
+          <strip size='37'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[cnt:Company_CSR:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F2CE959B-E3F1-41BE-852C-8C08D3B2AE56}' />
+    </window>
+    <window class='worksheet' name='Sector- Misaligned'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='37'>
+            <card type='columns' />
+          </strip>
+          <strip size='37'>
+            <card type='rows' />
+          </strip>
+          <strip size='37'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.1ssais711ltzuw147m0gb1szvwc3].[cnt:Company_CSR:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4BC02605-2ADE-4B98-8C1A-9624AA110743}' />
+    </window>
+    <window class='dashboard' maximized='true' name='CSR - Alignment Dashboard'>
+      <viewpoints>
+        <viewpoint name='Alignment Indicator'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='ESG Pillar Comparison'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='ESG vs Reddit Sentiment'>
+          <zoom type='entire-view' />
+          <floating-toolbar-visibility value='1' />
+        </viewpoint>
+        <viewpoint name='Sector- Aligned' />
+        <viewpoint name='Sector- Misaligned' />
+        <viewpoint name='Sentiment Distribution by ESG Quartile'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='8' />
+      <simple-id uuid='{96B2DF73-B73A-4E80-8CBA-73502A750485}' />
+    </window>
+  </windows>
+</workbook>
